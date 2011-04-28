@@ -14,7 +14,9 @@ create table status (
   user text,
   geo text,
   place_id text,
-  coordinates text
+  coordinates text,
+  foreign key (place_id) references places(id),
+  foreign key (user_id) references users(id)
 );
 
 create table entity_types (
