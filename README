@@ -1,0 +1,27 @@
+Configuration:
+    first off, install (obviously):
+        easy_install config
+    write a configuration file like this:
+    ***********************EXAMPLE****************************
+        oAuth:
+           [
+             {
+                consumer_key : 'consumer_key'
+                consumer_secret : 'consumer_secret'
+                access_token_key : 'access_token'
+                access_token_secret : 'access_token_secret
+             }   
+           ]
+     ***********************EXAMPLE****************************
+     Place this in a file called 'myconfig.cfg'
+     load into your python script like this:
+       from config import Config
+
+       f = file('myconfig.cfg')
+       cfg = Config(f)
+       print cfg.oAuth[0].consumer_key
+       print cfg.oAuth[0].consumer_secret 
+       ... and so on
+    
+    REMEMBER to add your config file to .gitignore
+        
