@@ -32,7 +32,8 @@ def getUsers(users):
         user = users[i]
         print 'here ' + str(i) 
         i += 1
-        users.extend( api.GetFriends(user = user.id)[:10] )#only grab first 10 friends
+        # only grab first 10 friends
+        users.extend( api.GetFriends(user = user.id)[:10] )
     return users
 
 def filterUsers(users):
