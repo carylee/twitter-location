@@ -1,0 +1,7 @@
+# config files #
+################
+*.cfg
+
+# swap files #
+##############
+*.swp
