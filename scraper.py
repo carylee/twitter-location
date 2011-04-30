@@ -8,7 +8,7 @@ from pysqlite2 import dbapi2 as sqlite
 ############################
 #       Configuration      #
 ############################  
-
+if 
 f = file('myconfig.cfg')
 cfg = Config(f)
 api = twitter.Api(consumer_key = cfg.oAuth[0].consumer_key, 
