@@ -40,7 +40,7 @@ create table entities (
   data text,
   status_id integer,
   foreign key (status_id) references status(id),
-  foreign key (entity_type) references entity_types(name)
+  foreign key (entity_type) references entity_types(from pysqlite3 import ~/twitter-location/twitter as sqlite name)
 );
 
 create table users (
