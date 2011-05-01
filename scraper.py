@@ -1,55 +1,117 @@
+#! /usr/bin/python
+
 import twitter
 from config import Config
+from pysqlite2 import dbapi2 as sqlite
+
 
 ############################
-#     Helper Functions     #
-############################  
-
+#       Configuration      #
+############################
 f = file('myconfig.cfg')
 cfg = Config(f)
 api = twitter.Api(consumer_key = cfg.oAuth[0].consumer_key, 
-                  consumer_secret = cfg.oAuth[0].consumer_key,
-                  access_token_key = cfg.oAuth[0].consumer_key,
-                  access_token_secret= cfg.oAuth[0].consumer_key)
+                  consumer_secret = cfg.oAuth[0].consumer_secret,
+                  access_token_key = cfg.oAuth[0].access_token,
+                  access_token_secret= cfg.oAuth[0].access_token_secret)
+
+#just checking that I logged in...
+#print api.VerifyCredentials() 
                   
 ############################
 #     Helper Functions     #
 ############################  
 
-def getUsers(users):
-    for user in users:
-        if len(users) < MAX_QUERIES:
-            users += api.GetFriends(user = user)
-        else:
-            return users
+#MAX_QUERIES = 349/2
+# Use this for testing
+MAX_QUERIES = 10/2
+MAX_TWEETS = 190
+DB = 'tweets.db'
 
+def getUsers(users):
+    i = 0
+    while len(users) < MAX_QUERIES:
+        user = users[i]
+        i += 1
+        # only grab first 10 friends,      ----wtf, why?
+        users.extend( api.GetFriends(user = user.id)[:10] )
+    return users
+
+def filterUsers(users):
+    for user in users[:]:
+        if user.GetLang() != 'en' or user.GetProtected():
+            users.remove(user)
     return users
 
 def getTweets(users):
-    tweets = {}
+    tweets = []
     for user in users:
-        tweets[str(user)] = api.GetUserTimeline(user, count = MAX_TWEETS)
+        if not user.GetProtected():
+            tweets += api.GetUserTimeline(user.id, count = MAX_TWEETS)
     return tweets
 
-################
-#     Main     #
-################  
+def printTweetsInfo(tweets):
+    # I am assuming at some point we will want a fancier print function
+    print 'Number of Tweets ', len(tweets)
 
-#MAX_QUERIES = 349/2
-# Use this for sexting
-MAX_QUERIES = 10/2
-MAX_TWEETS = 200
+def printUsersInfo(users):
+    # I am assuming at some point we will want a fancier print function
+    print 'Number of Valid Users', len(users)
 
+#######################
+#     Grab Tweets     #
+#######################
 
 initTweets = api.GetPublicTimeline()
-users = getUsers([s.user.id for s in initTweets])
+
+users = filterUsers( getUsers( filterUsers([s.user for s in initTweets])))
+printUsersInfo(users)
+
 tweets = getTweets(users)
-# Write some LEET shiet to load into the database
-for u, t in tweets.iteritems():
-    print t[0].text
+printTweetsInfo(tweets)
+
     
+#############################
+#     Put into Database     #
+#############################
 
+connection = sqlite.connect(DB)
+cursor = connection.cursor()
 
+for user in users:
+    values = (unicode(user.GetId()),
+              '\'' + unicode(user.GetName()) + '\'',
+              '\'' + unicode(user.GetCreatedAt()) + '\'', 
+              '\'' + unicode(user.GetLocation()) + '\'', 
+              '\'' + unicode(user.GetDescription()) + '\'', 
+              unicode(int(user.GetGeoEnabled())),
+              unicode(user.GetFriendsCount()),
+              unicode(user.GetStatusesCount()), 
+              '\'' + unicode(user.GetScreenName()) + '\'',
+              '\'' + unicode(user.GetTimeZone()) + '\'', 
+              '\'' + unicode(user.GetUrl()) + '\'',
+              unicode(user.GetUtcOffset()), 
+              '\'' + unicode(user.GetLang()) + '\'')
+    cursor.execute('insert into users values (?,?,?,?,?,?,?,?,?,?,?,?,?)', values)
+    connection.commit()
 
-        
-        
+for tweet in tweets:
+    values = (unicode(tweet.GetId()),
+              '\'' + unicode(tweet.GetCreatedAt()) + '\'',
+              unicode(tweet.GetUser()),
+              unicode(int(tweet.GetFavorited())),
+              '\'' + unicode(tweet.GetInReplyToScreenName()) + '\'',
+              unicode(tweet.GetInReplyToUserId()),
+              unicode(tweet.GetInReplyToStatusId()),
+              unicode(int(tweet.GetTruncated())),
+              '\'' + unicode(tweet.GetSource()) + '\'',
+              '\'' + unicode(tweet.GetText()) + '\'',
+              '\'' + unicode(tweet.GetLocation()) + '\'',
+              '\'' + unicode(tweet.GetRelativeCreatedAt()) + '\'',
+              '\'' + unicode(tweet.GetUser()) + '\'',
+              '\'' + unicode(tweet.GetGeo()) + '\'',
+              '\'' + unicode(tweet.GetPlace()) + '\'',
+              '\'' + unicode(tweet.GetCoordinates()) + '\'')
+    cursor.execute('insert into status values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)', values)
+    connection.commit()
+

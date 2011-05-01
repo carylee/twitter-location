@@ -1,7 +1,8 @@
 # config files #
 ################
 *.cfg
-
+*.db
 # swap files #
 ##############
 *.swp
+*.save
