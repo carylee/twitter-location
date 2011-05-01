@@ -1,6 +1,6 @@
 #! /usr/bin/python
 
-import twitter
+import twitter, time
 from config import Config
 from pysqlite2 import dbapi2 as sqlite
 
@@ -22,9 +22,9 @@ api = twitter.Api(consumer_key = cfg.oAuth[0].consumer_key,
 #     Helper Functions     #
 ############################  
 
-#MAX_QUERIES = 349/2
+MAX_QUERIES = 300/2
 # Use this for testing
-MAX_QUERIES = 10/2
+#MAX_QUERIES = 10/2
 MAX_TWEETS = 190
 DB = 'tweets.db'
 
@@ -58,9 +58,19 @@ def printUsersInfo(users):
     # I am assuming at some point we will want a fancier print function
     print 'Number of Valid Users', len(users)
 
+
+
+
+
+
 #######################
 #     Grab Tweets     #
 #######################
+
+# Print some log information
+localtime = time.localtime(time.time())
+print "Ran at: %s:%s on %s/%s/%s" % (localtime.tm_hour, localtime.tm_min, localtime.tm_mon, localtime.tm_mday, localtime.tm_year)
+
 
 initTweets = api.GetPublicTimeline()
 
@@ -70,7 +80,9 @@ printUsersInfo(users)
 tweets = getTweets(users)
 printTweetsInfo(tweets)
 
-    
+
+
+
 #############################
 #     Put into Database     #
 #############################
