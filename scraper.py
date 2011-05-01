@@ -7,8 +7,8 @@ from pysqlite2 import dbapi2 as sqlite
 
 ############################
 #       Configuration      #
-############################  
-if 
+############################
+#if 
 f = file('myconfig.cfg')
 cfg = Config(f)
 api = twitter.Api(consumer_key = cfg.oAuth[0].consumer_key, 
@@ -25,20 +25,20 @@ api = twitter.Api(consumer_key = cfg.oAuth[0].consumer_key,
 
 #MAX_QUERIES = 349/2
 # Use this for testing
-MAX_QUERIES = 20/2
+MAX_QUERIES = 10/2
 MAX_TWEETS = 190
 DB = 'tweets.db'
 
 def getUsers(users):
     i = 0
-    print 'grabbed %s legit users' % (str(len(users)))
     while len(users) < MAX_QUERIES:
         user = users[i]
         i += 1
-        # only grab first 10 friends
+        # only grab first 10 friends,      ----wtf
         users.extend( api.GetFriends(user = user.id)[:10] )
     return users
 
+# should be an or if you do the same thing either way...also, modifying the users var while looping through it -python is pretty sweet
 def filterUsers(users):
     for user in users[:]:
         if user.GetLang() != 'en':
@@ -48,31 +48,32 @@ def filterUsers(users):
     return users
 
 def getTweets(users):
-    tweets = {}
+    tweets = []
     for user in users:
-        if user.GetProtected():
-            print 'oh no !'
-        try:
-            tweets[str(user.id)] = api.GetUserTimeline(user.id, count = MAX_TWEETS)
-        except:
-            continue
+        if not user.GetProtected():
+            tweets += api.GetUserTimeline(user.id, count = MAX_TWEETS)
     return tweets
+
+def printTweetsInfo(tweets):
+    # I am assuming at some point we will want a fancier print function
+    print 'Number of Tweets ', len(tweets)
+
+def printUsersInfo(users):
+    # I am assuming at some point we will want a fancier print function
+    print 'Number of Valid Users', len(users)
 
 #######################
 #     Grab Tweets     #
 #######################
 
 initTweets = api.GetPublicTimeline()
-#users = getUsers([s.user for s in initTweets])
-users = filterUsers( getUsers( filterUsers([s.user for s in initTweets]))) 
-tweets = getTweets(users)
 
-print len(tweets)
-for u, t in tweets.iteritems():
-    if len(t) > 0:
-        print 'number of tweets: %s; 1st tweet: %s' % (len(t), t[0].text)
-    else:
-        print 'null tweet'
+users = filterUsers( getUsers( filterUsers([s.user for s in initTweets])))
+printUsersInfo(users)
+
+tweets = getTweets(users)
+printTweetsInfo(tweets)
+
     
 #############################
 #     Put into Database     #
@@ -112,23 +113,24 @@ for user in users:
                   '\'' + unicode(user.GetLang()) + '\'')
     cursor.execute('insert into users values (?,?,?,?,?,?,?,?,?,?,?,?,?)', values)
     connection.commit()
-#for tweet in tweets:
-#    cursor.execute('insert into status values ()')
 
-#connection.commit()
+for tweet in tweets:
+    values = (unicode(tweet.GetId()),
+              '\'' + unicode(tweet.GetCreatedAt()) + '\'',
+              unicode(tweet.GetUser()),
+              unicode(int(tweet.GetFavorited())),
+              '\'' + unicode(tweet.GetInReplyToScreenName()) + '\'',
+              unicode(tweet.GetInReplyToUserId()),
+              unicode(tweet.GetInReplyToStatusId()),
+              unicode(int(tweet.GetTruncated())),
+              '\'' + unicode(tweet.GetSource()) + '\'',
+              '\'' + unicode(tweet.GetText()) + '\'',
+              '\'' + unicode(tweet.GetLocation()) + '\'',
+              '\'' + unicode(tweet.GetRelativeCreatedAt()) + '\'',
+              '\'' + unicode(tweet.GetUser()) + '\'',
+              '\'' + unicode(tweet.GetGeo()) + '\'',
+              '\'' + unicode(tweet.GetPlace()) + '\'',
+              '\'' + unicode(tweet.GetCoordinates()) + '\'')
+    cursor.execute('insert into status values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)', values)
+    connection.commit()
 
-
-
-#  id integer primary key,
-#  name text,
-#  created_at text,
-#  location text,
-#  description text,
-#  geo_enabled tinyint(1),
-#  friends_count integer,
-#  statuses_count integer,
-#  screen_name text,
-#  time_zone text,
-#  url text,
-#  utc_offset integer,
-#  lang en
