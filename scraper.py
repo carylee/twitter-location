@@ -8,7 +8,6 @@ from pysqlite2 import dbapi2 as sqlite
 ############################
 #       Configuration      #
 ############################
-#if 
 f = file('myconfig.cfg')
 cfg = Config(f)
 api = twitter.Api(consumer_key = cfg.oAuth[0].consumer_key, 
@@ -34,16 +33,13 @@ def getUsers(users):
     while len(users) < MAX_QUERIES:
         user = users[i]
         i += 1
-        # only grab first 10 friends,      ----wtf
+        # only grab first 10 friends,      ----wtf, why?
         users.extend( api.GetFriends(user = user.id)[:10] )
     return users
 
-# should be an or if you do the same thing either way...also, modifying the users var while looping through it -python is pretty sweet
 def filterUsers(users):
     for user in users[:]:
-        if user.GetLang() != 'en':
-            users.remove(user)
-        elif user.GetProtected():
+        if user.GetLang() != 'en' or user.GetProtected():
             users.remove(user)
     return users
 
@@ -83,34 +79,19 @@ connection = sqlite.connect(DB)
 cursor = connection.cursor()
 
 for user in users:
-    if user.GetGeoEnabled():
-        values = (unicode(user.GetId()),
-                  '\'' + unicode(user.GetName()) + '\'',
-                  '\'' + unicode(user.GetCreatedAt()) + '\'', 
-                  '\'' + unicode(user.GetLocation()) + '\'', 
-                  '\'' + unicode(user.GetDescription()) + '\'', 
-                  unicode(1),
-                  unicode(user.GetFriendsCount()),
-                  unicode(user.GetStatusesCount()), 
-                  '\'' + unicode(user.GetScreenName()) + '\'',
-                  '\'' + unicode(user.GetTimeZone()) + '\'', 
-                  '\'' + unicode(user.GetUrl()) + '\'',
-                  unicode(user.GetUtcOffset()), 
-                  '\'' + unicode(user.GetLang()) + '\'')
-    else:
-        values = (unicode(user.GetId()),
-                  '\'' + unicode(user.GetName()) + '\'',
-                  '\'' + unicode(user.GetCreatedAt()) + '\'', 
-                  '\'' + unicode(user.GetLocation()) + '\'', 
-                  '\'' + unicode(user.GetDescription()) + '\'', 
-                  unicode(0),
-                  unicode(user.GetFriendsCount()),
-                  unicode(user.GetStatusesCount()), 
-                  '\'' + unicode(user.GetScreenName()) + '\'',
-                  '\'' + unicode(user.GetTimeZone()) + '\'', 
-                  '\'' + unicode(user.GetUrl()) + '\'',
-                  unicode(user.GetUtcOffset()), 
-                  '\'' + unicode(user.GetLang()) + '\'')
+    values = (unicode(user.GetId()),
+              '\'' + unicode(user.GetName()) + '\'',
+              '\'' + unicode(user.GetCreatedAt()) + '\'', 
+              '\'' + unicode(user.GetLocation()) + '\'', 
+              '\'' + unicode(user.GetDescription()) + '\'', 
+              unicode(int(user.GetGeoEnabled())),
+              unicode(user.GetFriendsCount()),
+              unicode(user.GetStatusesCount()), 
+              '\'' + unicode(user.GetScreenName()) + '\'',
+              '\'' + unicode(user.GetTimeZone()) + '\'', 
+              '\'' + unicode(user.GetUrl()) + '\'',
+              unicode(user.GetUtcOffset()), 
+              '\'' + unicode(user.GetLang()) + '\'')
     cursor.execute('insert into users values (?,?,?,?,?,?,?,?,?,?,?,?,?)', values)
     connection.commit()
 
