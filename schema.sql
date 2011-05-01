@@ -1,4 +1,4 @@
-create table statuses (
+create table status (
   id integer primary key,
   created_at text,
   user_id integer,
@@ -39,7 +39,7 @@ create table entities (
   entity_type text,
   data text,
   status_id integer,
-  foreign key (status_id) references statuses(id),
+  foreign key (status_id) references status(id),
   foreign key (entity_type) references entity_types(name)
 );
 
