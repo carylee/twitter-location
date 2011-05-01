@@ -6,6 +6,3 @@
 ##############
 *.swp
 *.save
-
-#database file# - this will avoid merge issues
-tweets.db
