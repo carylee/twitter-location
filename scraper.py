@@ -2,7 +2,8 @@
 
 import twitter
 from config import Config
-from pysqlite2 import dbapi2 as sqlite
+#from pysqlite2 import dbapi2 as sqlite
+import sqlite3 as sqlite
 
 
 ############################
@@ -77,6 +78,7 @@ printTweetsInfo(tweets)
 
 connection = sqlite.connect(DB)
 cursor = connection.cursor()
+cursor.execute('PRAGMA synchronous=OFF');
 
 for user in users:
     values = (unicode(user.GetId()),
