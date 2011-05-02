@@ -33,7 +33,6 @@ def getUsers(users):
     while len(users) < MAX_QUERIES:
         user = users[i]
         i += 1
-        # only grab first 10 friends,      ----wtf, why?
         users.extend( api.GetFriends(user = user.id)[:10] )
     return users
 
@@ -47,7 +46,10 @@ def getTweets(users):
     tweets = []
     for user in users:
         if not user.GetProtected():
-            tweets += api.GetUserTimeline(user.id, count = MAX_TWEETS)
+            try:
+                tweets += api.GetUserTimeline(user.id, count = MAX_TWEETS)
+            except:
+                continue
     return tweets
 
 def printTweetsInfo(tweets):
@@ -98,7 +100,7 @@ def formatTweet(tweet):
 
 # Print some log information
 localtime = time.localtime(time.time())
-print "Ran at: %s:%s on %s/%s/%s" % (localtime.tm_hour, localtime.tm_min, localtime.tm_mon, localtime.tm_mday, localtime.tm_year)
+print "\n\nRan at: %s:%s on %s/%s/%s" % (localtime.tm_hour, localtime.tm_min, localtime.tm_mon, localtime.tm_mday, localtime.tm_year)
 
 
 initTweets = api.GetPublicTimeline()
