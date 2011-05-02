@@ -17,16 +17,17 @@ api = twitter.Api(consumer_key = cfg.oAuth[0].consumer_key,
 
 #just checking that I logged in...
 #print api.VerifyCredentials() 
-                  
-############################
-#     Helper Functions     #
-############################  
 
-MAX_QUERIES = 300/2
+MAX_QUERIES = 200/2
 # Use this for testing
 #MAX_QUERIES = 5/2
 MAX_TWEETS = 190
 DB = 'tweets.db'
+
+                 
+############################
+#     Helper Functions     #
+############################  
 
 def getUsers(users):
     i = 0
@@ -52,13 +53,13 @@ def getTweets(users):
                 continue
     return tweets
 
-def printTweetsInfo(tweets):
+def printTweetsInfo(tweets, numFailed):
     # I am assuming at some point we will want a fancier print function
-    print 'Number of Tweets ', len(tweets)
+    print 'Number of Tweets added ', (len(tweets) - numFailed)
 
-def printUsersInfo(users):
+def printUsersInfo(users, numFailed):
     # I am assuming at some point we will want a fancier print function
-    print 'Number of Valid Users', len(users)
+    print 'Number of Valid Users added ', (len(users) - numFailed)
 
 def formatUser(user):
     return (unicode(user.GetId()),
@@ -93,24 +94,26 @@ def formatTweet(tweet):
               '\'' + unicode(tweet.GetPlace()) + '\'',
               '\'' + unicode(tweet.GetCoordinates()) + '\'')
               
+def printDatabaseInfo(cursor):
+    cursor.execute('select count(*) from users')
+    numUsers = cursor.fetchall()
+    cursor.execute('select count(*) from status')
+    numTweets = cursor.fetchall()
+    print "There are currently %d users and %d tweets in the database.\n" % (numUsers[0][0], numTweets[0][0])
+
+
+
+
+
 
 #######################
 #     Grab Tweets     #
 #######################
 
-# Print some log information
 localtime = time.localtime(time.time())
-print "\n\nRan at: %s:%s on %s/%s/%s" % (localtime.tm_hour, localtime.tm_min, localtime.tm_mon, localtime.tm_mday, localtime.tm_year)
-
-
 initTweets = api.GetPublicTimeline()
-
 users = filterUsers( getUsers( filterUsers([s.user for s in initTweets])))
-printUsersInfo(users)
-
 tweets = getTweets(users)
-printTweetsInfo(tweets)
-
 
 
 
@@ -120,15 +123,37 @@ printTweetsInfo(tweets)
 
 connection = sqlite.connect(DB)
 cursor = connection.cursor()
+userInsertFail = 0
+tweetInsertFail = 0
 
 for user in users:
     values = formatUser(user)
-    cursor.execute('insert into users values (?,?,?,?,?,?,?,?,?,?,?,?,?)', values)
-    connection.commit()
+    try:
+        cursor.execute('insert into users values (?,?,?,?,?,?,?,?,?,?,?,?,?)', values)
+        connection.commit()
+    except:
+        userInsertFail += 1
+        continue
 
 for tweet in tweets:
     values = formatTweet(tweet)
-    cursor.execute('insert into status values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)', values)
-    connection.commit()
+    try:
+        cursor.execute('insert into status values (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)', values)
+        connection.commit()
+    except:
+        tweetInsertFail += 1
+        continue
 
-print "\n"
+
+#########################
+#     Print Summary     #
+#########################
+
+print "Ran at: %s:%s on %s/%s/%s" % (localtime.tm_hour, localtime.tm_min, localtime.tm_mon, localtime.tm_mday, localtime.tm_year)
+printUsersInfo(users, userInsertFail)
+printTweetsInfo(tweets, tweetInsertFail)
+printDatabaseInfo(cursor)
+cursor.close()
+
+
+
