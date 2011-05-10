@@ -60,8 +60,8 @@ class UnicodeWriter:
         for row in rows:
             self.writerow(row)
 
-db = 'tweets.db'
-#db = 'test.db'
+#db = 'tweets.db'
+db = 'test.db'
 
 con = sqlite3.connect(db)
 cur = con.cursor()
@@ -81,17 +81,12 @@ for tweet in tweets:
   text = re.sub("^'\s?", ' ', text)
   text = re.sub("\"|'", '', text)
   place = tweet[0]
-  #place = unicode(tweet[0])
-  #place = place.encode('ascii','ignore')
-  #place = u.encode('ascii', 'replace')
-  placeNameMatches = re.search("(?<='name': u')([^']+)", place)
-  placeName = str(placeNameMatches.group(0))
-  placeFullNameMatches = re.search("(?<='full_name': u')([^']+)", place)
-  placeFullName = str(placeFullNameMatches.group(0))
-  countryMatches = re.search("(?<='country': u')([^']+)", place)
-  country = str(countryMatches.group(0))
-  #tw = {'text':tweet[1], 'place_name':placeName, 'full_name':placeFullName, 'country':country}
-  #fulltweets.append([text, placeName, placeFullName, country])
+  placeNameMatches = re.search("(?<='name': u)['\"](.*?)[\"'],", place)
+  placeName = str(placeNameMatches.group(1))
+  placeFullNameMatches = re.search("(?<='full_name': u)['\"](.*?)[\"'],", place)
+  placeFullName = str(placeFullNameMatches.group(1))
+  countryMatches = re.search("(?<='country': u)['\"](.*?)[\"'],", place)
+  country = str(countryMatches.group(1))
   writer.writerow([text, placeName, placeFullName, country])
 
 #writer.writerows(fulltweets)
