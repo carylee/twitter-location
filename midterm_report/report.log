@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.11.7)  9 MAY 2011 23:32
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009) (format=pdflatex 2009.11.7)  10 MAY 2011 18:17
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -296,23 +296,23 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 18.
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ) [1
 
-{/usr/local/texlive/2009/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./repo
-rt.aux) ) 
+{/usr/local/texlive/2009/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./
+report.aux) ) 
 Here is how much of TeX's memory you used:
- 2667 strings out of 493848
- 35855 string characters out of 3149207
- 91611 words of memory out of 3000000
- 5906 multiletter control sequences out of 15000+200000
- 7442 words of font info for 29 fonts, out of 3000000 for 9000
+ 2668 strings out of 493848
+ 35870 string characters out of 3149207
+ 92644 words of memory out of 3000000
+ 5907 multiletter control sequences out of 15000+200000
+ 7749 words of font info for 30 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 41i,6n,24p,900b,184s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
-x12.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
-2.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.
-pfb>
-Output written on report.pdf (1 page, 41031 bytes).
+ 41i,6n,24p,463b,184s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmbx12.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr12.pfb></usr/local/texlive/2009/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r17.pfb>
+Output written on report.pdf (2 pages, 49153 bytes).
 PDF statistics:
- 18 PDF objects out of 1000 (max. 8388607)
+ 21 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
