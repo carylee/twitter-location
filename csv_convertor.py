@@ -76,7 +76,7 @@ writer.writerow(['text', 'place_name', 'place_full_name', 'place_country'])
 #fulltweets = []
 
 for tweet in tweets:
-  text = tweet[1]
+  text = re.sub('\n', ' ', tweet[1])
   place = tweet[0]
   #place = unicode(tweet[0])
   #place = place.encode('ascii','ignore')
