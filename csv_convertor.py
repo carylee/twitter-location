@@ -69,7 +69,7 @@ cur = con.cursor()
 cur.execute('select place_id, text from status where place_id!="\'None\'"')
 tweets = cur.fetchall()
 
-writer = UnicodeWriter(open('tweets.csv', 'wb'))
+writer = UnicodeWriter(open('tweets.csv', 'wb'), quoting=csv.QUOTE_ALL, quotechar="'")
 
 writer.writerow(['text', 'place_name', 'place_full_name', 'place_country'])
 
@@ -77,6 +77,9 @@ writer.writerow(['text', 'place_name', 'place_full_name', 'place_country'])
 
 for tweet in tweets:
   text = re.sub('\n', ' ', tweet[1])
+  text = re.sub("\s?'$", ' ', text)
+  text = re.sub("^'\s?", ' ', text)
+  print text
   place = tweet[0]
   #place = unicode(tweet[0])
   #place = place.encode('ascii','ignore')
