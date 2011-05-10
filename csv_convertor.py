@@ -60,8 +60,8 @@ class UnicodeWriter:
         for row in rows:
             self.writerow(row)
 
-#db = 'tweets.db'
-db = 'test.db'
+db = 'tweets.db'
+#db = 'test.db'
 
 con = sqlite3.connect(db)
 cur = con.cursor()
@@ -79,7 +79,6 @@ for tweet in tweets:
   text = re.sub('\n', ' ', tweet[1])
   text = re.sub("\s?'$", ' ', text)
   text = re.sub("^'\s?", ' ', text)
-  print text
   place = tweet[0]
   #place = unicode(tweet[0])
   #place = place.encode('ascii','ignore')
