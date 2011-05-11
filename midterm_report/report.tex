@@ -26,17 +26,22 @@ In this report we present our method of gathering Twitter data and provide some 
 \section*{Data:}
 We collected that data by scraping twitter once an hour for a week. We wrote a short scraping script that collects tweets from the public timeline, collects the friends of those users, and then grabs 200 most recent tweets from each user in this collection. 
 
-\subsubsection*{Limitations: [ ! ] = cut if we are over 2 pgs}
-In the last year Twitter has imposed several restrictions on how a user can scrape Twitter data, and on how a user can protect themselves from being scraped. Due to these restrictions we are limited to making 350 queries per hour. This has limited the number of tweets that we can pull. In addition, approximately 1\% of users protect themselves from being scraped. This limits how many tweets we are able to collect. 
 
 \subsubsection*{Data Statistics:}
-After scraping every hour for a week we have a database with just under 2 million tweets.  While this may seem like a lot, we are actually only interested in the tweets containing the "place_id" field which contains the location in which the tweet was tweeted.  Currently about one percent of all tweets in the database have this information thus we have about 20,000 tweets in which we can use with WEKA.
-
+After scraping every hour for a week we have a database with just under 2 million tweets.  While this may seem like a lot, we are actually only interested in the tweets containing the "place id" field which contains the location in which the tweet was tweeted.  Currently about one percent of all tweets in the database have this information thus we have about 20,000 tweets in which we can use with WEKA.
 
 \section*{Preliminary Results:}
+The results given here were obtained via a Naive Bayes algorithm run on a small sub-set of the data we collected. This subset consisted of 315 tweets originating from 3 different cities/provinces (Kentucky, Gennep (Netherlands), Caieiras (Brazil)). We utilize the "bag-o-words" representation. This small number of classes and the fact that each has a different language produces excellent results. 
 
+Based off of a 10-fold cross-validation scheme we obtain a 93.2 \% precision accuracy and a 93.4 \% recall accuracy. 
+
+We were unable to successfully run the Naive Bayes classification on all our data due to the extreme memory requirements that that entails (we tried on machines with up to 5GB of RAM while running java with an extended Heap). We predict that our scores will be much less impressive. 
 
 \section*{Next Steps:}
+Our top priority right now is to figure out how to either optimize our representation so that it will run on a machine, or to find a machine that will handle building the model. We estimate that we will need a machine with somewhere in between 12-18 GB of memory. 
 
+After that task is done we would like to add geography somehow into the algorithm. Currently, the place names just represent classes and as such have no other information what that name means. WE would like to rather use the coordinates of the tweets to build a 2-d regression. 
+
+In addition to this previous idea, we would like to slim down our word vector representation by only utilizing words that will indicate something about location. This could be obtained, or approximated,  through a number of different methods. The first of which could be to exclude common words (e.g. the, a, an, him, her) from the word vector. We could also use one of the many techniques discussed in the papers we've read for class to classify the words in the vector, and then choose only the ones relevant to location. 
 
 \end{document}
