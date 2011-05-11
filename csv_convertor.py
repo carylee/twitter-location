@@ -82,11 +82,11 @@ for tweet in tweets:
   text = re.sub("\"|'", '', text)
   place = tweet[0]
   placeNameMatches = re.search("(?<='name': u)['\"](.*?)[\"'],", place)
-  placeName = str(placeNameMatches.group(1))
+  placeName = str(placeNameMatches.group(1)) if placeNameMatches else ''
   placeFullNameMatches = re.search("(?<='full_name': u)['\"](.*?)[\"'],", place)
-  placeFullName = str(placeFullNameMatches.group(1))
+  placeFullName = str(placeFullNameMatches.group(1)) if placeFullNameMatches else ''
   countryMatches = re.search("(?<='country': u)['\"](.*?)[\"'],", place)
-  country = str(countryMatches.group(1))
+  country = str(countryMatches.group(1)) if countryMatches else ''
   writer.writerow([text, placeName, placeFullName, country])
 
 #writer.writerows(fulltweets)
