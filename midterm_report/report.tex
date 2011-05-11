@@ -17,7 +17,7 @@
 \begin{document}
 \maketitle
 \section*{Introduction:}
-Twitter contains a vast recorded collection of human interaction. With its easy data scraping and free and open nature, it represents a treasure trove of information for the well-equipped scientist. Recently, Twitter added a feature allowing users to keep track of their location via their phone's GPS coordinates. We are interested in the following question: ``Can someone determine a tweeter's location based off of the content of the tweet alone?"
+Twitter contains a vast recorded collection of human interaction. With its easy data scraping and open nature, it represents a treasure trove of information for the well-equipped scientist. Recently, Twitter added a feature allowing users to keep track of their location via their phone's GPS coordinates. We are interested in the following question: ``Can someone determine a tweeter's location based off of the content of the tweet alone?"
 
 This question has been a hot topic in the news as of late, with reported robberies and many concerns over the public data available in tweets. The GPS information combined with Twitter's large user base, may provide enough data to build a distribution of user locations given the tweet text. 
 
@@ -28,6 +28,10 @@ We collected that data by scraping twitter once an hour for a week. We wrote a s
 
 \subsubsection*{Limitations: [ ! ] = cut if we are over 2 pgs}
 In the last year Twitter has imposed several restrictions on how a user can scrape Twitter data, and on how a user can protect themselves from being scraped. Due to these restrictions we are limited to making 350 queries per hour. This has limited the number of tweets that we can pull. In addition, approximately 1\% of users protect themselves from being scraped. This limits how many tweets we are able to collect. 
+
+\subsubsection*{Data Statistics:}
+After scraping every hour for a week we have a database with just under 2 million tweets.  While this may seem like a lot, we are actually only interested in the tweets containing the "place_id" field which contains the location in which the tweet was tweeted.  Currently about one percent of all tweets in the database have this information thus we have about 20,000 tweets in which we can use with WEKA.
+
 
 \section*{Preliminary Results:}
 
