@@ -38,7 +38,7 @@ Based off of a 10-fold cross-validation scheme we obtain a 30.9 \% precision acc
 We were unable to successfully run the Naive Bayes classification on all our data due to the extreme memory requirements that that entails (This model took 7 GB of RAM to build and test). We predict that this test set is indicative of the capabilities of this algorithm. 
 
 \section*{Next Steps:}
-Our top priority right now is to figure out how to either optimize our representation so that it will run on a machine, or to find a machine that can handle building the model. We estimate that we will need a machine with somewhere in between 12-18 GB of memory to build and test our model on all of our geo-tagged data ($\approx$ 22,000 tweets). Additionally we may need to modify our algorithm to use less memory in the case that we can not get access to a computer with sufficient resources.
+Our top priority right now is to figure out how to either optimize our representation so that it will run on a machine, or to find a machine that can handle building the model. We estimate that we will need a machine with somewhere in between 12-18 GB of memory to build and test our model on all of our geo-tagged data ($\approx$ 22,000 tweets).
 
 After that task is done we would like to incorporate geography into our algorithm. Currently, the place names just represent classes (cities, states and countries) and as such have no other information regarding location. Instead, we would like to use the coordinates of the tweets to build a 2-d regression and with that be able to have some notion of accuracy with respect to distance.   
 
