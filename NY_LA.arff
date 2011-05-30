@@ -1,0 +1,2398 @@
+@relation 'NY_LA-weka.filters.unsupervised.attribute.NominalToString-Cfirst-weka.filters.unsupervised.attribute.StringToWordVector-R1-W1000-prune-rate-1.0-N0-S-stemmerweka.core.stemmers.NullStemmer-M1-stopwords/home/daniel/twitter-location/stopwords.txt-tokenizerweka.core.tokenizers.WordTokenizer -delimiters \" \\r\\n\\t.,;:\\\'\\\"()?!\"'
+
+@attribute place_name {LA,NY}
+@attribute #@$& numeric
+@attribute #Hiiiiiiiiiii numeric
+@attribute #NSNWeekend numeric
+@attribute #NSNweekend numeric
+@attribute #addicted numeric
+@attribute #bored numeric
+@attribute #cangetit numeric
+@attribute #educationjobs numeric
+@attribute #ifitwasuptome numeric
+@attribute #ineedadoctor numeric
+@attribute #jobs numeric
+@attribute #losangeles numeric
+@attribute #milehighclub numeric
+@attribute #yup numeric
+@attribute & numeric
+@attribute + numeric
+@attribute - numeric
+@attribute -- numeric
+@attribute --&gt numeric
+@attribute -B numeric
+@attribute //4sq numeric
+@attribute //bit numeric
+@attribute //j numeric
+@attribute //t numeric
+@attribute 2 numeric
+@attribute 3 numeric
+@attribute 360flips numeric
+@attribute 4 numeric
+@attribute 4th numeric
+@attribute 6am numeric
+@attribute 8 numeric
+@attribute 93 numeric
+@attribute @ numeric
+@attribute @AjCalderon numeric
+@attribute @BieberJeebies numeric
+@attribute @DEVisHot numeric
+@attribute @DravenTorresXXX numeric
+@attribute @GoogleChrome numeric
+@attribute @Hootsuite numeric
+@attribute @Kevin_Mathis numeric
+@attribute @Lykkeliofficial numeric
+@attribute @MODSUN numeric
+@attribute @NicoleBessette numeric
+@attribute @Robert_Rose numeric
+@attribute @WBCVideo numeric
+@attribute @aaronSTEREOS numeric
+@attribute @alainazieman numeric
+@attribute @arthurbroduer numeric
+@attribute @barbierawk numeric
+@attribute @brittycentxo numeric
+@attribute @castlefanradio numeric
+@attribute @cjvolschenk numeric
+@attribute @danielstein numeric
+@attribute @dearsarahlam numeric
+@attribute @dennishegstad numeric
+@attribute @digiday numeric
+@attribute @emmyatl numeric
+@attribute @followoller numeric
+@attribute @jeffreestar numeric
+@attribute @jeffresstar numeric
+@attribute @jessiclesftw numeric
+@attribute @jessroush numeric
+@attribute @joshumbrella numeric
+@attribute @joshybeatdown numeric
+@attribute @jpfrenza numeric
+@attribute @julie1101 numeric
+@attribute @keyinfluencer numeric
+@attribute @kthelmo numeric
+@attribute @kuno numeric
+@attribute @locaine numeric
+@attribute @mashable numeric
+@attribute @msbridgetblack numeric
+@attribute @mtrtlegroggins numeric
+@attribute @myrtlegroggins numeric
+@attribute @nathanfillion numeric
+@attribute @ncrewdson numeric
+@attribute @notwitcasey numeric
+@attribute @revertfashion numeric
+@attribute @sesamestreet numeric
+@attribute @stephenjerzak numeric
+@attribute @storyofmeTJ numeric
+@attribute @swike numeric
+@attribute ADHD numeric
+@attribute ANNUAL numeric
+@attribute Absolutely numeric
+@attribute Ad numeric
+@attribute Adult numeric
+@attribute Ahead numeric
+@attribute America numeric
+@attribute Amy numeric
+@attribute Angeles numeric
+@attribute Annd numeric
+@attribute Annual numeric
+@attribute Approach numeric
+@attribute Attached numeric
+@attribute Birthday numeric
+@attribute Bout numeric
+@attribute Breakfast numeric
+@attribute Buzz numeric
+@attribute CA numeric
+@attribute CDW numeric
+@attribute Canadian numeric
+@attribute Castle numeric
+@attribute Center numeric
+@attribute Check numeric
+@attribute Coordinator numeric
+@attribute Cuddles numeric
+@attribute Currently numeric
+@attribute Curriculum numeric
+@attribute DENNIS numeric
+@attribute DIVERSITY numeric
+@attribute David numeric
+@attribute Day numeric
+@attribute Def numeric
+@attribute Developer numeric
+@attribute Diversity numeric
+@attribute Education numeric
+@attribute Event numeric
+@attribute Ew numeric
+@attribute Failures numeric
+@attribute FedEx numeric
+@attribute Flight numeric
+@attribute Fortune numeric
+@attribute Freedoms numeric
+@attribute Fuck numeric
+@attribute Global numeric
+@attribute Godkids numeric
+@attribute Grips numeric
+@attribute Hands numeric
+@attribute Happy numeric
+@attribute Hey numeric
+@attribute Hollywood numeric
+@attribute Hootsuite numeric
+@attribute IBM numeric
+@attribute Ill numeric
+@attribute Im numeric
+@attribute Ima numeric
+@attribute Internet numeric
+@attribute Joe numeric
+@attribute KASH numeric
+@attribute LA numeric
+@attribute LACFLAs numeric
+@attribute LAX numeric
+@attribute Laureate numeric
+@attribute Life numeric
+@attribute Los numeric
+@attribute Loves numeric
+@attribute MMMMM numeric
+@attribute MOCA numeric
+@attribute Menn numeric
+@attribute Miss numeric
+@attribute Mobile numeric
+@attribute Night numeric
+@attribute Nordstrom numeric
+@attribute OC numeric
+@attribute OMG numeric
+@attribute Office numeric
+@attribute Oh numeric
+@attribute PICKY numeric
+@attribute Panel numeric
+@attribute Plan numeric
+@attribute Planning numeric
+@attribute Pls numeric
+@attribute Predictive numeric
+@attribute Products numeric
+@attribute Purple numeric
+@attribute ROLE numeric
+@attribute RSVP numeric
+@attribute RT numeric
+@attribute Rack numeric
+@attribute Royal numeric
+@attribute SMOOTHIES numeric
+@attribute SPOTLIGHT numeric
+@attribute Sarno numeric
+@attribute Security numeric
+@attribute Services numeric
+@attribute Shipping numeric
+@attribute Snapshot numeric
+@attribute SocialMediaToday numeric
+@attribute Spent numeric
+@attribute Sponsored numeric
+@attribute Star numeric
+@attribute Stark numeric
+@attribute Stay numeric
+@attribute Strings numeric
+@attribute Sunday numeric
+@attribute THIRD numeric
+@attribute TSA numeric
+@attribute Thank numeric
+@attribute Thanks numeric
+@attribute Third numeric
+@attribute Threat numeric
+@attribute Tweeting numeric
+@attribute WORKSHOP numeric
+@attribute Wars numeric
+@attribute Wedding numeric
+@attribute Whats numeric
+@attribute Workshop numeric
+@attribute Yes numeric
+@attribute [INFOGRAPHIC] numeric
+@attribute adam numeric
+@attribute add numeric
+@attribute album numeric
+@attribute all-access numeric
+@attribute almond numeric
+@attribute alright numeric
+@attribute am numeric
+@attribute amazing numeric
+@attribute america numeric
+@attribute analytics numeric
+@attribute angeles numeric
+@attribute annoying numeric
+@attribute appreciate numeric
+@attribute art numeric
+@attribute ass numeric
+@attribute attn numeric
+@attribute audition numeric
+@attribute available numeric
+@attribute awkward numeric
+@attribute bag numeric
+@attribute bagel numeric
+@attribute balcony numeric
+@attribute bamboozle numeric
+@attribute bbq numeric
+@attribute beautiful numeric
+@attribute bed numeric
+@attribute bends/breaks numeric
+@attribute bird numeric
+@attribute birthday numeric
+@attribute blonde numeric
+@attribute body numeric
+@attribute booth numeric
+@attribute bowl numeric
+@attribute box numeric
+@attribute brain numeric
+@attribute bring numeric
+@attribute brotherrr numeric
+@attribute bunch numeric
+@attribute burn numeric
+@attribute butterfly numeric
+@attribute cafe numeric
+@attribute call numeric
+@attribute cant numeric
+@attribute carlton numeric
+@attribute centre numeric
+@attribute check numeric
+@attribute cheyah numeric
+@attribute chicken numeric
+@attribute chill numeric
+@attribute chip numeric
+@attribute chocolate numeric
+@attribute christopherbrow numeric
+@attribute cloud numeric
+@attribute cloudy numeric
+@attribute co/1RdiWXJ numeric
+@attribute co/30HD0Rn numeric
+@attribute co/6uhAvMO numeric
+@attribute co/Sv1DmhJ numeric
+@attribute co/c19ZUl8 numeric
+@attribute co/d9dnVkA numeric
+@attribute co/h4PBe3I numeric
+@attribute co/lKmkU1T numeric
+@attribute co/mAIrtdm numeric
+@attribute co/r3ZzjDq numeric
+@attribute co/sgoO9sj numeric
+@attribute coast numeric
+@attribute coffee numeric
+@attribute cold numeric
+@attribute com numeric
+@attribute com/lElv63 numeric
+@attribute coming numeric
+@attribute complaining numeric
+@attribute convertibles numeric
+@attribute cookies numeric
+@attribute cool numeric
+@attribute corona numeric
+@attribute crave numeric
+@attribute crazy numeric
+@attribute crew numeric
+@attribute cupcakes numeric
+@attribute damn numeric
+@attribute data numeric
+@attribute date numeric
+@attribute day numeric
+@attribute days numeric
+@attribute dead numeric
+@attribute deficit numeric
+@attribute degrees numeric
+@attribute dental numeric
+@attribute detention numeric
+@attribute didnt numeric
+@attribute dinner numeric
+@attribute dint numeric
+@attribute dipping numeric
+@attribute discrete numeric
+@attribute doing numeric
+@attribute dont numeric
+@attribute downtown numeric
+@attribute drink numeric
+@attribute drinks numeric
+@attribute drugs numeric
+@attribute dude numeric
+@attribute dying numeric
+@attribute east numeric
+@attribute easy numeric
+@attribute effect numeric
+@attribute elastic numeric
+@attribute enjoying numeric
+@attribute etc numeric
+@attribute exciting numeric
+@attribute exclusive numeric
+@attribute exhibit numeric
+@attribute experience numeric
+@attribute fair numeric
+@attribute fans numeric
+@attribute fatty numeric
+@attribute favors numeric
+@attribute feel numeric
+@attribute feels numeric
+@attribute fill numeric
+@attribute finally numeric
+@attribute fixes numeric
+@attribute flight numeric
+@attribute fondue numeric
+@attribute foreign numeric
+@attribute forever numeric
+@attribute formerly numeric
+@attribute found numeric
+@attribute free numeric
+@attribute friends numeric
+@attribute frown numeric
+@attribute fuck numeric
+@attribute fun numeric
+@attribute future numeric
+@attribute fyi numeric
+@attribute game numeric
+@attribute getting numeric
+@attribute ghetto numeric
+@attribute gimbal numeric
+@attribute girlfriend numeric
+@attribute girls numeric
+@attribute goal numeric
+@attribute gonna numeric
+@attribute gotta numeric
+@attribute greatness numeric
+@attribute grows numeric
+@attribute grumpy numeric
+@attribute guess numeric
+@attribute gypsies numeric
+@attribute ha numeric
+@attribute haa numeric
+@attribute hah numeric
+@attribute haha numeric
+@attribute haircut/doin numeric
+@attribute half numeric
+@attribute handle numeric
+@attribute hard numeric
+@attribute hash numeric
+@attribute hate numeric
+@attribute helicopter numeric
+@attribute hello numeric
+@attribute hey numeric
+@attribute highddd numeric
+@attribute highs numeric
+@attribute hit numeric
+@attribute hmm numeric
+@attribute hollyweird numeric
+@attribute hollywood numeric
+@attribute home numeric
+@attribute honestly numeric
+@attribute hope numeric
+@attribute horrible numeric
+@attribute hot numeric
+@attribute hour numeric
+@attribute hours numeric
+@attribute http numeric
+@attribute huge numeric
+@attribute hurts numeric
+@attribute hwood numeric
+@attribute iced numeric
+@attribute id numeric
+@attribute ill numeric
+@attribute im numeric
+@attribute indeeed numeric
+@attribute inside numeric
+@attribute interview numeric
+@attribute issues numeric
+@attribute ive numeric
+@attribute jeans numeric
+@attribute job numeric
+@attribute kid numeric
+@attribute king numeric
+@attribute la numeric
+@attribute lack numeric
+@attribute land numeric
+@attribute larger numeric
+@attribute lately numeric
+@attribute layover numeric
+@attribute leather numeric
+@attribute life numeric
+@attribute lime numeric
+@attribute line numeric
+@attribute list numeric
+@attribute listen numeric
+@attribute live numeric
+@attribute los numeric
+@attribute lot numeric
+@attribute love numeric
+@attribute loves numeric
+@attribute loving numeric
+@attribute low numeric
+@attribute lows numeric
+@attribute luck numeric
+@attribute lunch numeric
+@attribute ly/9JzdOH numeric
+@attribute ly/fKMPPx numeric
+@attribute ly/gbez4c numeric
+@attribute ly/iSdoYR numeric
+@attribute ly/j0rF1X numeric
+@attribute ly/kAVzfA numeric
+@attribute ly/krwY63 numeric
+@attribute ly/lgzjnl numeric
+@attribute lys numeric
+@attribute marinated numeric
+@attribute maybe numeric
+@attribute mean numeric
+@attribute meant numeric
+@attribute media numeric
+@attribute meditation numeric
+@attribute meds numeric
+@attribute meet numeric
+@attribute meeting numeric
+@attribute meh numeric
+@attribute melt numeric
+@attribute mess numeric
+@attribute milk numeric
+@attribute millionaires numeric
+@attribute milwaukee numeric
+@attribute mmm numeric
+@attribute mobile numeric
+@attribute moment numeric
+@attribute mothers numeric
+@attribute move numeric
+@attribute movies numeric
+@attribute mp/NSNweekend numeric
+@attribute naked numeric
+@attribute nap numeric
+@attribute neighbor numeric
+@attribute news numeric
+@attribute nice numeric
+@attribute night numeric
+@attribute nokia numeric
+@attribute obvi numeric
+@attribute oc numeric
+@attribute ollie numeric
+@attribute online numeric
+@attribute outside numeric
+@attribute pain numeric
+@attribute pair numeric
+@attribute parents numeric
+@attribute party numeric
+@attribute pass numeric
+@attribute passing numeric
+@attribute perfect numeric
+@attribute picky numeric
+@attribute piece numeric
+@attribute pissed numeric
+@attribute plane numeric
+@attribute play numeric
+@attribute please numeric
+@attribute popcorn numeric
+@attribute posted numeric
+@attribute power numeric
+@attribute pre numeric
+@attribute ps numeric
+@attribute queen numeric
+@attribute quick numeric
+@attribute rain numeric
+@attribute rangers numeric
+@attribute raspberry numeric
+@attribute reach numeric
+@attribute ready numeric
+@attribute real numeric
+@attribute realize numeric
+@attribute recipe numeric
+@attribute reconnecting numeric
+@attribute red numeric
+@attribute refills numeric
+@attribute relax numeric
+@attribute restaurant numeric
+@attribute ritz numeric
+@attribute roommate numeric
+@attribute ruins numeric
+@attribute sauces numeric
+@attribute savage numeric
+@attribute school numeric
+@attribute scream numeric
+@attribute semi numeric
+@attribute sent numeric
+@attribute series numeric
+@attribute set numeric
+@attribute shake numeric
+@attribute shhh numeric
+@attribute shit numeric
+@attribute shitttt numeric
+@attribute shortly numeric
+@attribute shut numeric
+@attribute sick numeric
+@attribute simulator numeric
+@attribute site numeric
+@attribute skate numeric
+@attribute skatepark numeric
+@attribute skinny numeric
+@attribute sky numeric
+@attribute sleep numeric
+@attribute slip numeric
+@attribute smarts numeric
+@attribute smoke numeric
+@attribute snaps numeric
+@attribute social numeric
+@attribute sometimes numeric
+@attribute soon numeric
+@attribute stabilization numeric
+@attribute stair numeric
+@attribute stairs numeric
+@attribute stare numeric
+@attribute start numeric
+@attribute starting numeric
+@attribute step numeric
+@attribute stickam numeric
+@attribute stoked numeric
+@attribute stomp numeric
+@attribute stoned numeric
+@attribute straw numeric
+@attribute street numeric
+@attribute sucks numeric
+@attribute sudden numeric
+@attribute sun numeric
+@attribute sunset numeric
+@attribute sunshine numeric
+@attribute sup numeric
+@attribute surprise numeric
+@attribute sweet numeric
+@attribute sweets numeric
+@attribute tent numeric
+@attribute thank numeric
+@attribute thanks numeric
+@attribute theme numeric
+@attribute therapy numeric
+@attribute thinkLA numeric
+@attribute throw numeric
+@attribute til numeric
+@attribute till numeric
+@attribute time numeric
+@attribute tired numeric
+@attribute tits numeric
+@attribute to-do numeric
+@attribute tomorrow numeric
+@attribute ton numeric
+@attribute tonight numeric
+@attribute tool numeric
+@attribute top numeric
+@attribute transcendental numeric
+@attribute treats numeric
+@attribute trending numeric
+@attribute trust numeric
+@attribute try numeric
+@attribute trying numeric
+@attribute tuning numeric
+@attribute ugh numeric
+@attribute unexpected numeric
+@attribute ups numeric
+@attribute urth numeric
+@attribute usually numeric
+@attribute vallo numeric
+@attribute vanilla numeric
+@attribute velvet numeric
+@attribute videos numeric
+@attribute vile numeric
+@attribute w/ numeric
+@attribute wait numeric
+@attribute watching numeric
+@attribute website numeric
+@attribute weekend numeric
+@attribute weeks numeric
+@attribute werent numeric
+@attribute wi-fi numeric
+@attribute wish numeric
+@attribute wishes numeric
+@attribute woke numeric
+@attribute women numeric
+@attribute wont numeric
+@attribute worth numeric
+@attribute wtf numeric
+@attribute yep numeric
+@attribute youre numeric
+@attribute youtube numeric
+@attribute #AiWeiWei numeric
+@attribute #BadMommaShutYoMouf numeric
+@attribute #ClassClown numeric
+@attribute #DONE numeric
+@attribute #EVERYTHING numeric
+@attribute #FreeAiWeiwei numeric
+@attribute #Homo numeric
+@attribute #Libya numeric
+@attribute #NoFeelings numeric
+@attribute #Osama numeric
+@attribute #Random numeric
+@attribute #Shesthe1 numeric
+@attribute #Textme numeric
+@attribute #VERYSOON numeric
+@attribute #Webby numeric
+@attribute #WestSide numeric
+@attribute #abex numeric
+@attribute #aiweiwei numeric
+@attribute #awesome numeric
+@attribute #barcelona numeric
+@attribute #bestrapperalive numeric
+@attribute #counterspace numeric
+@attribute #everytime numeric
+@attribute #ff numeric
+@attribute #fresh numeric
+@attribute #fuckingannoying numeric
+@attribute #fucku numeric
+@attribute #gassedtweet numeric
+@attribute #goodshow numeric
+@attribute #halamadrid numeric
+@attribute #happyeaster numeric
+@attribute #iNerdClothingLLC numeric
+@attribute #inspiration numeric
+@attribute #iwantthedick numeric
+@attribute #kool numeric
+@attribute #maddd numeric
+@attribute #museumsadvocacy numeric
+@attribute #mw2011 numeric
+@attribute #nationaloppositeday numeric
+@attribute #ndnf numeric
+@attribute #newday_GEISAI numeric
+@attribute #nytmuseums numeric
+@attribute #oomf numeric
+@attribute #oops numeric
+@attribute #rascallflatts&lt numeric
+@attribute #realmadrid numeric
+@attribute #retaliation numeric
+@attribute #retweet numeric
+@attribute #rip numeric
+@attribute #smh numeric
+@attribute #smhawwww numeric
+@attribute #thisnigganeedsCONAN numeric
+@attribute #tyt numeric
+@attribute #waaaamp numeric
+@attribute #wakeNbake numeric
+@attribute #webby numeric
+@attribute &lt numeric
+@attribute *bugs numeric
+@attribute *gets numeric
+@attribute *joc numeric
+@attribute *kanye numeric
+@attribute *keith numeric
+@attribute *lil numeric
+@attribute *say numeric
+@attribute -Sir numeric
+@attribute -dave numeric
+@attribute //bzfd numeric
+@attribute //etsy numeric
+@attribute //gr numeric
+@attribute //lat numeric
+@attribute //nyr numeric
+@attribute //nyti numeric
+@attribute //on numeric
+@attribute //to numeric
+@attribute //www numeric
+@attribute 0 numeric
+@attribute 1 numeric
+@attribute 10 numeric
+@attribute 100 numeric
+@attribute '100\%' numeric
+@attribute 140 numeric
+@attribute 18 numeric
+@attribute 20 numeric
+@attribute 2006 numeric
+@attribute 2007 numeric
+@attribute 2010 numeric
+@attribute 2011 numeric
+@attribute 2012 numeric
+@attribute 22 numeric
+@attribute 25 numeric
+@attribute 25th numeric
+@attribute 2day numeric
+@attribute 2getha numeric
+@attribute 2morro numeric
+@attribute 2mrw numeric
+@attribute 2nite numeric
+@attribute 33 numeric
+@attribute 3aches numeric
+@attribute 3rd numeric
+@attribute 4/18 numeric
+@attribute 4/20 numeric
+@attribute 4/26 numeric
+@attribute 4/6 numeric
+@attribute 4PM numeric
+@attribute 5 numeric
+@attribute 5-8 numeric
+@attribute 500 numeric
+@attribute 530 numeric
+@attribute 6 numeric
+@attribute 7 numeric
+@attribute 7nephews numeric
+@attribute 8-hour numeric
+@attribute 90k+ numeric
+@attribute ==&gt numeric
+@attribute === numeric
+@attribute @ART_MikeLyon numeric
+@attribute @AlexMLeo numeric
+@attribute @AlphadogIV numeric
+@attribute @AmandaMcCormick numeric
+@attribute @Amanda_JW numeric
+@attribute @AmaniOnEarth numeric
+@attribute @AngeliqueENT numeric
+@attribute @BIGCATRECORDS numeric
+@attribute @BON_JOVII numeric
+@attribute @BarberInstitute numeric
+@attribute @BryanthePainter numeric
+@attribute @CLCAdvisors numeric
+@attribute @CarlBlack_ numeric
+@attribute @Change numeric
+@attribute @CorleoneAshley numeric
+@attribute @DJDreamer524 numeric
+@attribute @DJJulieTwinkle numeric
+@attribute @DenverArtMuseum numeric
+@attribute @DenverArtMuseums numeric
+@attribute @DontBlinkTwice numeric
+@attribute @EDevereaux22 numeric
+@attribute @Eric_Haywood numeric
+@attribute @EvilGhettoBarbi numeric
+@attribute @GOOD numeric
+@attribute @Hanselprincipe numeric
+@attribute @HeaterHouse3hun numeric
+@attribute @IAMINERD numeric
+@attribute @INTERMIX numeric
+@attribute @ImBenJBro numeric
+@attribute @InkMyHoleBody numeric
+@attribute @ItsDjLando numeric
+@attribute @JackieMGraham numeric
+@attribute @JessieLoff numeric
+@attribute @JimmyHackeysack numeric
+@attribute @JoseSMonkey numeric
+@attribute @KatieNaquin numeric
+@attribute @KiNg_CTFU numeric
+@attribute @KiangaEllis numeric
+@attribute @Kimbo_Ramplin numeric
+@attribute @LilTunechi numeric
+@attribute @MacMiller numeric
+@attribute @MarietjeD66 numeric
+@attribute @Michelle_VP numeric
+@attribute @MioSmiles numeric
+@attribute @MissWit numeric
+@attribute @MoMAmembers numeric
+@attribute @MomaModernArt numeric
+@attribute @MuseumModernArt numeric
+@attribute @MuseumPics numeric
+@attribute @NDNF numeric
+@attribute @NYT_Arts numeric
+@attribute @NYTimes numeric
+@attribute @NewYorker numeric
+@attribute @NoWordsNeeded numeric
+@attribute @RETURNOFDAMACCC numeric
+@attribute @ReRoc_Rochi numeric
+@attribute @ReadyMadeTweets numeric
+@attribute @RebeccaTaylorLA numeric
+@attribute @RichPplz numeric
+@attribute @SBak007 numeric
+@attribute @SFMOMA numeric
+@attribute @Sammamullarkey numeric
+@attribute @Sarah_Stierch numeric
+@attribute @ScottDikkers numeric
+@attribute @Shamcum numeric
+@attribute @SitesConscience numeric
+@attribute @StackmanRio1 numeric
+@attribute @Stedelijk numeric
+@attribute @Sweet_sour9 numeric
+@attribute @THEREALSUNNE numeric
+@attribute @Tangent_Thought numeric
+@attribute @Tate numeric
+@attribute @TheJennLeeGroup numeric
+@attribute @TheOnion numeric
+@attribute @TheRib35 numeric
+@attribute @The_Jean_Luc numeric
+@attribute @TylerGreenDC numeric
+@attribute @TylerGreenDCs numeric
+@attribute @VIV_G numeric
+@attribute @_breechittum numeric
+@attribute @_iTaughtHerThat numeric
+@attribute @amerikag numeric
+@attribute @analaurabaz numeric
+@attribute @ariaarari numeric
+@attribute @art_techne numeric
+@attribute @artnetdotcom numeric
+@attribute @aweissman numeric
+@attribute @bellizasmyth numeric
+@attribute @bhfq numeric
+@attribute @brainpicker numeric
+@attribute @brooklynmuseum numeric
+@attribute @bru_mwenje numeric
+@attribute @causedbyprocess numeric
+@attribute @change numeric
+@attribute @cmonstah numeric
+@attribute @curiousboo numeric
+@attribute @cypherinfo numeric
+@attribute @dancingdiva numeric
+@attribute @danieltbrennan numeric
+@attribute @davechappelle numeric
+@attribute @demonscars numeric
+@attribute @doccyD numeric
+@attribute @elleesttrois numeric
+@attribute @elonjames numeric
+@attribute @eosnos numeric
+@attribute @fastcompanys numeric
+@attribute @filmlinc numeric
+@attribute @greendoorstudio numeric
+@attribute @guggenheim numeric
+@attribute @heinhier numeric
+@attribute @homebrewer numeric
+@attribute @hragv numeric
+@attribute @hyperallergic numeric
+@attribute @iamreggiemoore numeric
+@attribute @imamuseum numeric
+@attribute @jennifuchs numeric
+@attribute @jonnymoon numeric
+@attribute @jujuboston numeric
+@attribute @juliaxgulia numeric
+@attribute @justinbieber numeric
+@attribute @katyperry numeric
+@attribute @kitkieser numeric
+@attribute @lacma numeric
+@attribute @manbartlett numeric
+@attribute @markbilly8 numeric
+@attribute @markrisio numeric
+@attribute @markusandrezak numeric
+@attribute @martincoote numeric
+@attribute @maryanndevine numeric
+@attribute @mattressfactory numeric
+@attribute @mcbc numeric
+@attribute @merylalper numeric
+@attribute @metmuseum numeric
+@attribute @mikkkay_ numeric
+@attribute @missymiss1515 numeric
+@attribute @mlaffs numeric
+@attribute @moma numeric
+@attribute @momamodernart numeric
+@attribute @mtgoldeneagle numeric
+@attribute @muralartss numeric
+@attribute @museummodernart numeric
+@attribute @museweb numeric
+@attribute @mykeicon numeric
+@attribute @nonprofitorgs numeric
+@attribute @nytimesarts numeric
+@attribute @origiful numeric
+@attribute @projectkid35th numeric
+@attribute @rjstein numeric
+@attribute @saintsandevils numeric
+@attribute @sesemata numeric
+@attribute @sfmoma numeric
+@attribute @shadowandact numeric
+@attribute @shell7 numeric
+@attribute @showoutgirlz numeric
+@attribute @snarfed99 numeric
+@attribute @sodascone numeric
+@attribute @sophiawallace numeric
+@attribute @soulbrotherdre numeric
+@attribute @summerrrm numeric
+@attribute @superstartop numeric
+@attribute @swisher_sweet3 numeric
+@attribute @takashipom numeric
+@attribute @tate numeric
+@attribute @thearmory numeric
+@attribute @theartmuse numeric
+@attribute @thequirkycat numeric
+@attribute @turbotales numeric
+@attribute @tutto_bene numeric
+@attribute @twitter numeric
+@attribute @tylergreendc numeric
+@attribute @walterrhett numeric
+@attribute @wonderfuldreamr numeric
+@attribute ALLLL numeric
+@attribute AbEx numeric
+@attribute Abstract numeric
+@attribute According numeric
+@attribute Actually numeric
+@attribute Africas numeric
+@attribute Age numeric
+@attribute Ai numeric
+@attribute Alfaro numeric
+@attribute Andoird numeric
+@attribute Andy numeric
+@attribute Angelica numeric
+@attribute Answers numeric
+@attribute April numeric
+@attribute Art numeric
+@attribute Arthur numeric
+@attribute Artist numeric
+@attribute ArtsBeat numeric
+@attribute Astoria numeric
+@attribute Atta numeric
+@attribute Attack numeric
+@attribute Award numeric
+@attribute Awards numeric
+@attribute Awesome numeric
+@attribute BEIIITCH numeric
+@attribute BITCHES numeric
+@attribute BLACK numeric
+@attribute Balboa numeric
+@attribute Bauhaus numeric
+@attribute Beautiful numeric
+@attribute Bin numeric
+@attribute Bird numeric
+@attribute Blaaaah numeric
+@attribute Blink numeric
+@attribute Bob numeric
+@attribute Bruce numeric
+@attribute Brunch numeric
+@attribute Burnett numeric
+@attribute CONGRATS numeric
+@attribute CRAZZZZZZAY numeric
+@attribute Cali numeric
+@attribute Call numeric
+@attribute Campaign numeric
+@attribute Cartier-Bresson numeric
+@attribute Celebrate numeric
+@attribute Celebration numeric
+@attribute Century numeric
+@attribute Change numeric
+@attribute Changes numeric
+@attribute Charles numeric
+@attribute Cheers numeric
+@attribute China numeric
+@attribute Chinese numeric
+@attribute Churchill numeric
+@attribute Complex numeric
+@attribute Computer numeric
+@attribute Congrats numeric
+@attribute Correction numeric
+@attribute Counter numeric
+@attribute Country numeric
+@attribute Craving numeric
+@attribute Curatorial numeric
+@attribute DAYYY numeric
+@attribute DENVER numeric
+@attribute Dahh numeric
+@attribute Damn numeric
+@attribute Denver numeric
+@attribute Design numeric
+@attribute Details numeric
+@attribute Digital numeric
+@attribute Directors/New numeric
+@attribute Dnt numeric
+@attribute Drink numeric
+@attribute Earth numeric
+@attribute Easter numeric
+@attribute Eastern numeric
+@attribute Ehh#mabey numeric
+@attribute Emotional numeric
+@attribute Empire numeric
+@attribute Enjoy numeric
+@attribute Erin numeric
+@attribute Excellent numeric
+@attribute Exhibition numeric
+@attribute Explorer numeric
+@attribute Expressionist numeric
+@attribute FEAST numeric
+@attribute FLINTSTONES numeric
+@attribute FUCK numeric
+@attribute Facebook numeric
+@attribute Family numeric
+@attribute Feb numeric
+@attribute Film numeric
+@attribute Films numeric
+@attribute Flickr numeric
+@attribute Flintstones numeric
+@attribute Following numeric
+@attribute Fools numeric
+@attribute Forever numeric
+@attribute Foundation numeric
+@attribute Frank numeric
+@attribute French numeric
+@attribute Frida numeric
+@attribute Friday numeric
+@attribute GRAPES numeric
+@attribute German numeric
+@attribute Ghead numeric
+@attribute Girls numeric
+@attribute Greenlight numeric
+@attribute Groove numeric
+@attribute Groupon numeric
+@attribute Guitars numeric
+@attribute Gurl numeric
+@attribute Guurl numeric
+@attribute Guy numeric
+@attribute HAPPY numeric
+@attribute HD numeric
+@attribute HR numeric
+@attribute Ha numeric
+@attribute Hackers numeric
+@attribute Hadababy numeric
+@attribute Hamlin numeric
+@attribute Hard numeric
+@attribute Hedda numeric
+@attribute Hello numeric
+@attribute Help numeric
+@attribute Henri numeric
+@attribute Hi numeric
+@attribute Hit numeric
+@attribute Hmmm numeric
+@attribute Hopefully numeric
+@attribute Huzzah numeric
+@attribute Image numeric
+@attribute Industrial numeric
+@attribute Influential numeric
+@attribute Inspiring numeric
+@attribute Instrument numeric
+@attribute Itsaboy numeric
+@attribute Ive numeric
+@attribute JR numeric
+@attribute JVC numeric
+@attribute Japan numeric
+@attribute Jeanluc numeric
+@attribute Jem numeric
+@attribute Join numeric
+@attribute Julia numeric
+@attribute June numeric
+@attribute Kahlos numeric
+@attribute Killer numeric
+@attribute Kitchens numeric
+@attribute Kite numeric
+@attribute Kraftwerk numeric
+@attribute Krush numeric
+@attribute Kusamas numeric
+@attribute LESSSGOOO numeric
+@attribute LOVE numeric
+@attribute Laden numeric
+@attribute Land numeric
+@attribute Light numeric
+@attribute Limitless numeric
+@attribute Livestream numeric
+@attribute Lmfao numeric
+@attribute Lol numeric
+@attribute Looking numeric
+@attribute Love numeric
+@attribute Lovelys numeric
+@attribute Loving numeric
+@attribute MT numeric
+@attribute Manufacturing numeric
+@attribute March numeric
+@attribute Maryann numeric
+@attribute Master numeric
+@attribute Matters numeric
+@attribute Middle numeric
+@attribute Military numeric
+@attribute Mix-a-Lot numeric
+@attribute MoMA numeric
+@attribute MoMAs numeric
+@attribute Modern numeric
+@attribute Modernity numeric
+@attribute Monday numeric
+@attribute Monkey numeric
+@attribute Morning numeric
+@attribute Mothers numeric
+@attribute Moving numeric
+@attribute Muniz numeric
+@attribute Mural numeric
+@attribute Museums numeric
+@attribute Music numeric
+@attribute Muslims numeric
+@attribute NAILS numeric
+@attribute ND/NF numeric
+@attribute NYC numeric
+@attribute Nahh numeric
+@attribute Neighborhood numeric
+@attribute Nice numeric
+@attribute Niggas numeric
+@attribute Oakland numeric
+@attribute Obama numeric
+@attribute Omg numeric
+@attribute Oooomg numeric
+@attribute Osama numeric
+@attribute Osamas numeric
+@attribute Overduin numeric
+@attribute PBS numeric
+@attribute PC numeric
+@attribute PMSn numeric
+@attribute Packing numeric
+@attribute Pay numeric
+@attribute Pennsylvania numeric
+@attribute People numeric
+@attribute Perreault numeric
+@attribute Personal numeric
+@attribute Philly numeric
+@attribute Pi numeric
+@attribute Picasso numeric
+@attribute Pish numeric
+@attribute Please numeric
+@attribute Presentation numeric
+@attribute Preservation numeric
+@attribute Press numeric
+@attribute Prize numeric
+@attribute Pussy numeric
+@attribute Quality numeric
+@attribute RWN numeric
+@attribute Read numeric
+@attribute Red numeric
+@attribute Release numeric
+@attribute Response numeric
+@attribute Retweet numeric
+@attribute Rocky numeric
+@attribute Rum numeric
+@attribute S/O numeric
+@attribute Sabotage numeric
+@attribute Saturday numeric
+@attribute Send numeric
+@attribute Shake numeric
+@attribute Sheep numeric
+@attribute Shingles numeric
+@attribute Short* numeric
+@attribute Sign numeric
+@attribute Siqueiros numeric
+@attribute Smfh numeric
+@attribute Sorry numeric
+@attribute Sound numeric
+@attribute Sounds numeric
+@attribute South numeric
+@attribute Space numeric
+@attribute Spotlight numeric
+@attribute Sprockets numeric
+@attribute Stellas numeric
+@attribute Stephanie numeric
+@attribute Sterne numeric
+@attribute Stick numeric
+@attribute Stylen numeric
+@attribute Swerving numeric
+@attribute T-shirt numeric
+@attribute TED numeric
+@attribute TONIGHT numeric
+@attribute TRACKS numeric
+@attribute Technology numeric
+@attribute Tickets numeric
+@attribute Tinkled numeric
+@attribute Tiny&Toya numeric
+@attribute Tonight numeric
+@attribute Truth numeric
+@attribute Tweeters numeric
+@attribute Tweets numeric
+@attribute Twitter numeric
+@attribute UBL numeric
+@attribute Ummm numeric
+@attribute Unfortunately numeric
+@attribute Union numeric
+@attribute Unplayable numeric
+@attribute Uuuh numeric
+@attribute Vado numeric
+@attribute Vik numeric
+@attribute Visit numeric
+@attribute WHITE numeric
+@attribute WNYCs numeric
+@attribute WOMEN numeric
+@attribute Warhol numeric
+@attribute Warhol-inspired numeric
+@attribute Warhols numeric
+@attribute Waste numeric
+@attribute Web numeric
+@attribute Webby numeric
+@attribute Weber numeric
+@attribute Week numeric
+@attribute Weerd numeric
+@attribute Weezy numeric
+@attribute Wei numeric
+@attribute Weiwei numeric
+@attribute Welcome numeric
+@attribute Werd numeric
+@attribute Weve numeric
+@attribute Whod numeric
+@attribute Win numeric
+@attribute Wish numeric
+@attribute Women numeric
+@attribute Workshops numeric
+@attribute Wow numeric
+@attribute Yeah numeric
+@attribute Yeeesh numeric
+@attribute Yooo numeric
+@attribute York numeric
+@attribute Yorkers numeric
+@attribute Youll numeric
+@attribute Zoe numeric
+@attribute account numeric
+@attribute actin numeric
+@attribute acting numeric
+@attribute actual numeric
+@attribute actually numeric
+@attribute ad numeric
+@attribute adding numeric
+@attribute admission numeric
+@attribute affiliated numeric
+@attribute afta numeric
+@attribute age numeric
+@attribute aim numeric
+@attribute aint numeric
+@attribute air numeric
+@attribute alot numeric
+@attribute amm numeric
+@attribute anarchy numeric
+@attribute announce numeric
+@attribute answer numeric
+@attribute anythhing numeric
+@attribute anythin numeric
+@attribute app numeric
+@attribute appearances numeric
+@attribute archived numeric
+@attribute argument numeric
+@attribute arrest numeric
+@attribute artist numeric
+@attribute artistic numeric
+@attribute artists numeric
+@attribute arts numeric
+@attribute asleep numeric
+@attribute assist numeric
+@attribute assistant numeric
+@attribute associated numeric
+@attribute attack numeric
+@attribute awesome numeric
+@attribute aww numeric
+@attribute babies numeric
+@attribute baby numeric
+@attribute baddest numeric
+@attribute barbershop numeric
+@attribute basically numeric
+@attribute bay numeric
+@attribute beat numeric
+@attribute beezy numeric
+@attribute begins numeric
+@attribute believe numeric
+@attribute bet numeric
+@attribute biggie numeric
+@attribute bills numeric
+@attribute bin numeric
+@attribute bio numeric
+@attribute bit numeric
+@attribute bitch numeric
+@attribute bitches numeric
+@attribute biz numeric
+@attribute black numeric
+@attribute blew numeric
+@attribute blogs numeric
+@attribute boat numeric
+@attribute boi numeric
+@attribute boo numeric
+@attribute booi numeric
+@attribute books numeric
+@attribute boots numeric
+@attribute booty numeric
+@attribute bope numeric
+@attribute boy numeric
+@attribute boys numeric
+@attribute boyz numeric
+@attribute bra numeric
+@attribute brakws numeric
+@attribute brawds numeric
+@attribute breakfast numeric
+@attribute breaks numeric
+@attribute brings numeric
+@attribute bro numeric
+@attribute brotha==&gt numeric
+@attribute brother numeric
+@attribute brought numeric
+@attribute btwn numeric
+@attribute buddy numeric
+@attribute bullshit numeric
+@attribute bunny numeric
+@attribute button numeric
+@attribute buy numeric
+@attribute cabby numeric
+@attribute cable numeric
+@attribute cabs numeric
+@attribute cali numeric
+@attribute called numeric
+@attribute camera numeric
+@attribute campaign numeric
+@attribute capital numeric
+@attribute care numeric
+@attribute cared numeric
+@attribute casual numeric
+@attribute catching numeric
+@attribute category numeric
+@attribute cause numeric
+@attribute celebrate numeric
+@attribute celebs numeric
+@attribute center numeric
+@attribute cha numeric
+@attribute challenge numeric
+@attribute chars numeric
+@attribute chick numeric
+@attribute child numeric
+@attribute claimed numeric
+@attribute classics numeric
+@attribute clit numeric
+@attribute closer numeric
+@attribute club numeric
+@attribute cn numeric
+@attribute co/DFMdoKb numeric
+@attribute co/EEwpUNY numeric
+@attribute co/I349Mgl numeric
+@attribute co/pYR6hLB numeric
+@attribute co/wT7TDegEEEYEAH numeric
+@attribute coaster numeric
+@attribute collection numeric
+@attribute com/MuseumofModernArt numeric
+@attribute comedy numeric
+@attribute comen numeric
+@attribute computer numeric
+@attribute confusing numeric
+@attribute congrats numeric
+@attribute congress numeric
+@attribute connected numeric
+@attribute construction numeric
+@attribute content numeric
+@attribute conversation numeric
+@attribute corner numeric
+@attribute correct numeric
+@attribute crime numeric
+@attribute critique numeric
+@attribute crowds numeric
+@attribute cud numeric
+@attribute cupcake numeric
+@attribute curator numeric
+@attribute curators numeric
+@attribute current numeric
+@attribute cut numeric
+@attribute cute numeric
+@attribute cuz numeric
+@attribute da numeric
+@attribute damm numeric
+@attribute dark numeric
+@attribute dat numeric
+@attribute deal numeric
+@attribute dealas numeric
+@attribute defending numeric
+@attribute definitely numeric
+@attribute dem numeric
+@attribute demise numeric
+@attribute department numeric
+@attribute designers numeric
+@attribute dick numeric
+@attribute dicks numeric
+@attribute dies numeric
+@attribute discovers numeric
+@attribute discuss numeric
+@attribute discusses numeric
+@attribute dissident numeric
+@attribute dm numeric
+@attribute dnt numeric
+@attribute documentary numeric
+@attribute donating numeric
+@attribute dooooo numeric
+@attribute dot numeric
+@attribute doubt numeric
+@attribute downloadable numeric
+@attribute dramatic numeric
+@attribute dreamed numeric
+@attribute dreams numeric
+@attribute dreamt numeric
+@attribute drippin numeric
+@attribute driving numeric
+@attribute drug numeric
+@attribute dumb numeric
+@attribute dupa numeric
+@attribute e-books numeric
+@attribute ear numeric
+@attribute earrings numeric
+@attribute earthquake numeric
+@attribute easier numeric
+@attribute eat numeric
+@attribute eco-friendy numeric
+@attribute eco-scary numeric
+@attribute editor numeric
+@attribute education numeric
+@attribute effort numeric
+@attribute else numeric
+@attribute em numeric
+@attribute enjoy numeric
+@attribute entries numeric
+@attribute event numeric
+@attribute events numeric
+@attribute everythig numeric
+@attribute ex-MoMA numeric
+@attribute excited numeric
+@attribute exhibition numeric
+@attribute expense numeric
+@attribute experimented numeric
+@attribute explain numeric
+@attribute explore numeric
+@attribute explosion numeric
+@attribute expression numeric
+@attribute extremist numeric
+@attribute fa numeric
+@attribute facebook numeric
+@attribute fake numeric
+@attribute fall numeric
+@attribute fashizzle numeric
+@attribute favorite numeric
+@attribute fb numeric
+@attribute feather numeric
+@attribute featuring numeric
+@attribute fee numeric
+@attribute feeling numeric
+@attribute fell numeric
+@attribute fellow numeric
+@attribute fighting numeric
+@attribute figures numeric
+@attribute files numeric
+@attribute film numeric
+@attribute films numeric
+@attribute fina numeric
+@attribute fine numeric
+@attribute finishd numeric
+@attribute fix numeric
+@attribute fixing numeric
+@attribute fizace numeric
+@attribute flawless numeric
+@attribute flip numeric
+@attribute floats numeric
+@attribute fluids numeric
+@attribute follow numeric
+@attribute followers numeric
+@attribute following numeric
+@attribute forget numeric
+@attribute forgood numeric
+@attribute form numeric
+@attribute former numeric
+@attribute forward numeric
+@attribute forwarded numeric
+@attribute freedom numeric
+@attribute friend numeric
+@attribute fuckin numeric
+@attribute fuked numeric
+@attribute funded numeric
+@attribute funding numeric
+@attribute funny numeric
+@attribute gather numeric
+@attribute gay numeric
+@attribute gett numeric
+@attribute gettn numeric
+@attribute girl numeric
+@attribute goes numeric
+@attribute goin numeric
+@attribute gollow numeric
+@attribute gona numeric
+@attribute gone numeric
+@attribute government numeric
+@attribute grab numeric
+@attribute green numeric
+@attribute grown numeric
+@attribute guided numeric
+@attribute gun numeric
+@attribute guna numeric
+@attribute gunna numeric
+@attribute guy numeric
+@attribute haawt numeric
+@attribute hackeysack numeric
+@attribute hand numeric
+@attribute hanging numeric
+@attribute happen numeric
+@attribute happened numeric
+@attribute happiness numeric
+@attribute hardwired numeric
+@attribute hashtag numeric
+@attribute haten numeric
+@attribute havent numeric
+@attribute heads numeric
+@attribute hear numeric
+@attribute held numeric
+@attribute hell numeric
+@attribute hella numeric
+@attribute help numeric
+@attribute heres numeric
+@attribute herr numeric
+@attribute hes numeric
+@attribute hid numeric
+@attribute history numeric
+@attribute hmmm numeric
+@attribute hockey numeric
+@attribute hoes numeric
+@attribute honor numeric
+@attribute hopefully numeric
+@attribute horn numeric
+@attribute hospital numeric
+@attribute house numeric
+@attribute hungry numeric
+@attribute iPad numeric
+@attribute iPhone numeric
+@attribute idea numeric
+@attribute idk numeric
+@attribute ima numeric
+@attribute imma numeric
+@attribute importance numeric
+@attribute includes numeric
+@attribute incredible numeric
+@attribute incredibly numeric
+@attribute infinite numeric
+@attribute information numeric
+@attribute intelligent numeric
+@attribute interactively numeric
+@attribute intern numeric
+@attribute international numeric
+@attribute internet numeric
+@attribute islam numeric
+@attribute issue numeric
+@attribute it/eSj0wt numeric
+@attribute jeams numeric
+@attribute joke numeric
+@attribute jon numeric
+@attribute judge numeric
+@attribute jumpshot numeric
+@attribute jus numeric
+@attribute juss numeric
+@attribute jussdid numeric
+@attribute justification numeric
+@attribute kat numeric
+@attribute keeep numeric
+@attribute key numeric
+@attribute kids numeric
+@attribute kitty numeric
+@attribute kno numeric
+@attribute knockn numeric
+@attribute koolaid numeric
+@attribute kr/fbkGhw numeric
+@attribute ladies numeric
+@attribute landfill numeric
+@attribute laptop numeric
+@attribute largest numeric
+@attribute lasnight numeric
+@attribute lasting numeric
+@attribute lastnight numeric
+@attribute laundry numeric
+@attribute leader numeric
+@attribute learn numeric
+@attribute lease numeric
+@attribute legal numeric
+@attribute legs numeric
+@attribute lesbians numeric
+@attribute lessons numeric
+@attribute letem numeric
+@attribute letting numeric
+@attribute likes numeric
+@attribute lil numeric
+@attribute link numeric
+@attribute links numeric
+@attribute listed numeric
+@attribute little numeric
+@attribute livestream numeric
+@attribute lmao numeric
+@attribute lmaolol numeric
+@attribute loads numeric
+@attribute loan numeric
+@attribute lol numeric
+@attribute lookin numeric
+@attribute looking numeric
+@attribute looks numeric
+@attribute love-filled numeric
+@attribute lover numeric
+@attribute luv numeric
+@attribute ly/7xfntu numeric
+@attribute ly/aBYsPH numeric
+@attribute ly/dEnSjN numeric
+@attribute ly/dL8BrD numeric
+@attribute ly/dP6va numeric
+@attribute ly/dP6vaf numeric
+@attribute ly/dQqf1n numeric
+@attribute ly/dXr56I numeric
+@attribute ly/eBPGJM numeric
+@attribute ly/eQEUS8 numeric
+@attribute ly/emy7sD numeric
+@attribute ly/f7t0DU numeric
+@attribute ly/fMeCmC numeric
+@attribute ly/fO5G1e numeric
+@attribute ly/fS1o8H numeric
+@attribute ly/faylEK numeric
+@attribute ly/fddKLz numeric
+@attribute ly/fgMTvi numeric
+@attribute ly/fgySaY numeric
+@attribute ly/fiI3N5 numeric
+@attribute ly/flI5oh numeric
+@attribute ly/fx5nd5 numeric
+@attribute ly/g5Kidj numeric
+@attribute ly/gEoUNP numeric
+@attribute ly/gL6jwm numeric
+@attribute ly/gbAc4q numeric
+@attribute ly/gdEAuB numeric
+@attribute ly/gslZiA numeric
+@attribute ly/h0h2rW numeric
+@attribute ly/h9RNeo numeric
+@attribute ly/hACXkq numeric
+@attribute ly/hEA2a0 numeric
+@attribute ly/hGANdh numeric
+@attribute ly/hHOeNR numeric
+@attribute ly/hgIEOL numeric
+@attribute ly/hhKsle numeric
+@attribute ly/hifwbo numeric
+@attribute ly/hiqUsw numeric
+@attribute ly/hqJ9y4 numeric
+@attribute ly/hulKmn numeric
+@attribute ly/hzXbn4 numeric
+@attribute ly/igurED numeric
+@attribute ly/ikmuRv numeric
+@attribute ly/j5hm5l numeric
+@attribute ly/ksD2yb numeric
+@attribute ly/mdSHUq numeric
+@attribute ly/ndnf2011 numeric
+@attribute ly/pitgtix numeric
+@attribute maccin numeric
+@attribute mad numeric
+@attribute madd numeric
+@attribute makes numeric
+@attribute mama numeric
+@attribute mang numeric
+@attribute manifestos numeric
+@attribute martin numeric
+@attribute mash numeric
+@attribute masterpiece numeric
+@attribute mature numeric
+@attribute mayb numeric
+@attribute me/dQUy2n numeric
+@attribute me/fu53NW numeric
+@attribute me/gMpAXh numeric
+@attribute means numeric
+@attribute met numeric
+@attribute microdocumentary numeric
+@attribute midnight numeric
+@attribute mine numeric
+@attribute minute numeric
+@attribute mio numeric
+@attribute misrepresented numeric
+@attribute miss numeric
+@attribute missed numeric
+@attribute missing numeric
+@attribute mixing numeric
+@attribute models numeric
+@attribute mom numeric
+@attribute money numeric
+@attribute monkey numeric
+@attribute mood numeric
+@attribute morning numeric
+@attribute motion numeric
+@attribute moven numeric
+@attribute mp/dLMHy0 numeric
+@attribute mp/eAtMnJ numeric
+@attribute mp/eYjEae numeric
+@attribute mp/emaKi6 numeric
+@attribute mp/f4AaKK numeric
+@attribute mp/fEVUpk numeric
+@attribute mp/fKhAES numeric
+@attribute mp/fiI3N5 numeric
+@attribute mp/fzaPNC numeric
+@attribute mp/gLvNgO numeric
+@attribute mp/gQQSkh numeric
+@attribute mp/hEA2a0 numeric
+@attribute ms/dOWmgV numeric
+@attribute ms/fPpOEn numeric
+@attribute ms/htrQn2 numeric
+@attribute ms/j4Nfru numeric
+@attribute msgs/art numeric
+@attribute murals numeric
+@attribute murder numeric
+@attribute museum numeric
+@attribute museums numeric
+@attribute muslim numeric
+@attribute naaaw numeric
+@attribute naked* numeric
+@attribute name numeric
+@attribute named numeric
+@attribute naw numeric
+@attribute nerdgasm numeric
+@attribute network numeric
+@attribute neva numeric
+@attribute nibble numeric
+@attribute nieces numeric
+@attribute nigga numeric
+@attribute niggah numeric
+@attribute niggas numeric
+@attribute nominated numeric
+@attribute note numeric
+@attribute notes numeric
+@attribute nw numeric
+@attribute obama numeric
+@attribute office numeric
+@attribute oh numeric
+@attribute ok numeric
+@attribute omg numeric
+@attribute onna numeric
+@attribute oooo numeric
+@attribute opinion numeric
+@attribute opportunity numeric
+@attribute org numeric
+@attribute org/fJjO5y numeric
+@attribute organizations numeric
+@attribute outta numeric
+@attribute ova numeric
+@attribute own numeric
+@attribute page numeric
+@attribute painters numeric
+@attribute painting numeric
+@attribute past numeric
+@attribute pawty numeric
+@attribute pbs numeric
+@attribute pdf numeric
+@attribute peace numeric
+@attribute pen numeric
+@attribute people numeric
+@attribute pest numeric
+@attribute petition numeric
+@attribute phone numeric
+@attribute photo numeric
+@attribute photographers numeric
+@attribute piercing numeric
+@attribute pikk numeric
+@attribute pillow numeric
+@attribute pimp numeric
+@attribute plan numeric
+@attribute playing numeric
+@attribute playoff numeric
+@attribute pleassssssse numeric
+@attribute pm numeric
+@attribute pn/momatix numeric
+@attribute police numeric
+@attribute pranksterism numeric
+@attribute preservation numeric
+@attribute preview numeric
+@attribute private numeric
+@attribute probably numeric
+@attribute productive numeric
+@attribute profiled numeric
+@attribute projects numeric
+@attribute prominently numeric
+@attribute puck numeric
+@attribute pulld numeric
+@attribute purposes numeric
+@attribute pushin numeric
+@attribute quarters numeric
+@attribute questions numeric
+@attribute rally numeric
+@attribute rap numeric
+@attribute rappins numeric
+@attribute raps numeric
+@attribute re numeric
+@attribute re-posting numeric
+@attribute reason numeric
+@attribute reception numeric
+@attribute records numeric
+@attribute referring numeric
+@attribute regular numeric
+@attribute release numeric
+@attribute religion numeric
+@attribute renowned numeric
+@attribute rent numeric
+@attribute reps numeric
+@attribute repulsive numeric
+@attribute reservation numeric
+@attribute response numeric
+@attribute rest numeric
+@attribute retrospective numeric
+@attribute reveal numeric
+@attribute reveals numeric
+@attribute rewarding numeric
+@attribute rhym numeric
+@attribute rock numeric
+@attribute royal numeric
+@attribute ruined numeric
+@attribute running numeric
+@attribute safe numeric
+@attribute salt numeric
+@attribute sat numeric
+@attribute satisfied numeric
+@attribute scanned numeric
+@attribute scared numeric
+@attribute screen numeric
+@attribute screening numeric
+@attribute sculptors numeric
+@attribute searching numeric
+@attribute sense numeric
+@attribute separately numeric
+@attribute serious numeric
+@attribute sexy numeric
+@attribute shares numeric
+@attribute shoot numeric
+@attribute short numeric
+@attribute shorts numeric
+@attribute shot numeric
+@attribute showd numeric
+@attribute shrug* numeric
+@attribute shuld numeric
+@attribute sign numeric
+@attribute signatures numeric
+@attribute signing numeric
+@attribute silence numeric
+@attribute sis numeric
+@attribute sister numeric
+@attribute sisterr numeric
+@attribute skool numeric
+@attribute slackin numeric
+@attribute slideshow numeric
+@attribute slob numeric
+@attribute slow numeric
+@attribute slured numeric
+@attribute smartest numeric
+@attribute smfh-___- numeric
+@attribute smh numeric
+@attribute smile numeric
+@attribute snatch numeric
+@attribute somethin numeric
+@attribute sooo numeric
+@attribute sounds numeric
+@attribute speak numeric
+@attribute spelling numeric
+@attribute spittin numeric
+@attribute spokesperson numeric
+@attribute sry numeric
+@attribute stage numeric
+@attribute stand numeric
+@attribute statement numeric
+@attribute stops numeric
+@attribute storage numeric
+@attribute stream numeric
+@attribute stripp numeric
+@attribute stupid numeric
+@attribute stylish numeric
+@attribute sum numeric
+@attribute sum1 numeric
+@attribute summer numeric
+@attribute supa numeric
+@attribute super numeric
+@attribute support numeric
+@attribute survey numeric
+@attribute swag numeric
+@attribute sweat numeric
+@attribute sweepy numeric
+@attribute swishers numeric
+@attribute ta numeric
+@attribute tablet numeric
+@attribute taking numeric
+@attribute talk numeric
+@attribute talked numeric
+@attribute talkin numeric
+@attribute tally numeric
+@attribute taste numeric
+@attribute tat numeric
+@attribute taught numeric
+@attribute tell numeric
+@attribute test numeric
+@attribute testn numeric
+@attribute tests numeric
+@attribute text numeric
+@attribute textfree-__- numeric
+@attribute texting numeric
+@attribute thats numeric
+@attribute theres numeric
+@attribute thick numeric
+@attribute third numeric
+@attribute tho numeric
+@attribute thr numeric
+@attribute threw numeric
+@attribute thrown numeric
+@attribute thru numeric
+@attribute thwy numeric
+@attribute thx numeric
+@attribute tickets numeric
+@attribute tight numeric
+@attribute to/eM4fqx numeric
+@attribute todays numeric
+@attribute told numeric
+@attribute toonite numeric
+@attribute tour numeric
+@attribute toya numeric
+@attribute truly numeric
+@attribute tsunami numeric
+@attribute turee numeric
+@attribute tweet numeric
+@attribute tweeting numeric
+@attribute tweets numeric
+@attribute twitter numeric
+@attribute txt numeric
+@attribute typa numeric
+@attribute type numeric
+@attribute tyson numeric
+@attribute u2 numeric
+@attribute ugly numeric
+@attribute underestimate numeric
+@attribute unfortunately numeric
+@attribute upcoming numeric
+@attribute upheaval numeric
+@attribute ur numeric
+@attribute urself numeric
+@attribute users numeric
+@attribute using numeric
+@attribute via numeric
+@attribute victims numeric
+@attribute video numeric
+@attribute vintage numeric
+@attribute vinyl numeric
+@attribute voice numeric
+@attribute voice* numeric
+@attribute vote numeric
+@attribute waiting numeric
+@attribute waken numeric
+@attribute walk numeric
+@attribute wall numeric
+@attribute walter numeric
+@attribute wana numeric
+@attribute wanna numeric
+@attribute wantd numeric
+@attribute war numeric
+@attribute wassup numeric
+@attribute wat numeric
+@attribute watch numeric
+@attribute water numeric
+@attribute waz numeric
+@attribute wed numeric
+@attribute weeerd numeric
+@attribute week numeric
+@attribute welcome numeric
+@attribute whateva numeric
+@attribute whenn numeric
+@attribute whip numeric
+@attribute whore numeric
+@attribute whos numeric
+@attribute wifi numeric
+@attribute wing numeric
+@attribute winner numeric
+@attribute wins numeric
+@attribute wishn numeric
+@attribute wit numeric
+@attribute wita numeric
+@attribute wkdn numeric
+@attribute wnt numeric
+@attribute wonderful numeric
+@attribute word numeric
+@attribute world numeric
+@attribute worlds numeric
+@attribute worm numeric
+@attribute worst numeric
+@attribute wow numeric
+@attribute writes numeric
+@attribute wrong numeric
+@attribute wud numeric
+@attribute xD numeric
+@attribute ya numeric
+@attribute yaaaaaaaaay numeric
+@attribute yeah numeric
+@attribute yes numeric
+@attribute yesterday numeric
+@attribute yo numeric
+@attribute youd numeric
+@attribute yum numeric
+@attribute yumm numeric
+
+@data
+{209 1,319 1,450 1}
+{89 1,294 1,329 1,395 1,488 1,494 1,587 1}
+{145 1,217 1,238 1,355 1,446 1,591 1}
+{0 NY,15 1,169 1,848 1,854 1,938 1,1222 1,1335 1,1384 1,1415 1,1444 1,1838 1,1917 1}
+{0 NY,15 1,23 1,135 1,376 1,943 1,952 1,1033 1,1062 1,1119 1,1131 1,1332 1,1557 1,1658 1,1746 1,1875 1}
+{0 NY,15 1,22 1,376 1,405 1,943 1,1119 1,1131 1,1394 1,1610 1,1746 1,1829 1,1911 1,1920 1}
+{0 NY,22 1,376 1,405 1,619 1,1610 1}
+{0 NY,547 1,820 1}
+{0 NY,880 1,1228 1,1746 1}
+{0 NY,547 1,868 1,1272 1}
+{0 NY,131 1,823 1,1000 1,1024 1,1044 1,1224 1,1280 1,1284 1,1321 1,1536 1,1932 1}
+{0 NY,25 1,296 1,405 1,407 1,522 1,674 1,791 1,1014 1,1179 1,1390 1,1394 1}
+{0 NY,190 1,868 1}
+{0 NY,22 1,199 1,376 1,814 1,1197 1,1216 1,1610 1}
+{0 NY,823 1,942 1,1317 1,1472 1,1512 1,1536 1}
+{0 NY,334 1,405 1,568 1,795 1,1423 1,1514 1,1680 1}
+{0 NY,22 1,112 1,376 1,605 1,696 1,790 1,893 1,1125 1,1313 1,1503 1,1603 1,1765 1}
+{0 NY,818 1,831 1,941 1,1018 1,1029 1,1144 1,1183 1,1392 1,1510 1,1677 1,1772 1}
+{0 NY,169 1,376 1,461 1,670 1,740 1,853 1,876 1,1181 1,1408 1,1630 1,1734 1,1872 1}
+{0 NY,22 1,26 1,376 1,673 1,946 1,1035 1,1047 1,1072 1,1133 1,1135 1,1171 1,1225 1,1572 1,1790 1}
+{0 NY,15 1,23 1,31 1,284 1,376 1,560 1,706 1,847 1,1030 1,1047 1,1072 1,1655 1,1729 1,1869 1}
+{0 NY,15 1,23 1,246 1,376 1,451 1,596 1,703 1,970 1,1076 1,1118 1,1273 1,1443 1,1495 1,1654 1,1729 1,1739 1,1908 1}
+{0 NY,17 1,22 1,376 1,709 1,807 1,963 1,1151 1,1163 1,1167 1,1251 1,1418 1,1598 1,1884 1}
+{0 NY,275 1,313 1,634 1,706 1,877 1,986 1,1031 1,1051 1,1203 1,1433 1,1645 1}
+{0 NY,22 1,376 1,581 1,616 1,687 1,1166 1,1407 1,1582 1,1782 1,1855 1}
+{0 NY,15 1,22 1,169 1,218 1,376 1,758 1,819 1,953 1,955 1,977 1,1060 1,1615 1,1872 1}
+{0 NY,169 1,808 1,1098 1,1323 1,1396 1,1435 1,1707 1,1720 1,1784 1}
+{0 NY,15 1,22 1,28 1,376 1,451 1,707 1,757 1,987 1,998 1,1020 1,1027 1,1118 1,1197 1,1594 1,1726 1,1729 1}
+{0 NY,376 1,669 1,763 1,901 1,1009 1,1023 1,1051 1,1105 1,1141 1,1182 1,1219 1,1664 1,1934 1}
+{0 NY,190 1,699 1,700 1,864 1,1290 1,1550 1}
+{0 NY,547 1,800 1,1177 1,1838 1}
+{0 NY,761 1,1129 1,1354 1}
+{0 NY,190 1,856 1,935 1,1838 1}
+{0 NY,22 1,169 1,376 1,701 1,760 1,864 1,993 1,1036 1,1060 1,1188 1,1590 1,1783 1}
+{0 NY,234 1,357 1,568 1,678 1,813 1,1197 1,1298 1,1397 1,1545 1,1692 1,1753 1,1862 1}
+{0 NY,22 1,130 1,376 1,472 1,584 1,585 1,679 1,897 1,975 1,1060 1,1297 1,1609 1}
+{0 NY,22 1,28 1,297 1,376 1,558 1,811 1,998 1,1020 1,1027 1,1239 1,1608 1,1729 1,1782 1}
+{0 NY,22 1,375 1,376 1,804 1,1200 1,1411 1,1507 1,1585 1,1672 1}
+{0 NY,547 1,722 1,889 1,900 1,1002 1,1043 1,1215 1}
+{0 NY,169 1,760 1,805 1,1013 1,1368 1,1493 1,1671 1,1832 1,1837 1,1933 1}
+{0 NY,441 1,745 1,1561 1,1828 1,1894 1}
+{0 NY,17 1,22 1,376 1,854 1,1602 1,1626 1,1647 1,1708 1,1854 1,1901 1}
+{0 NY,190 1,734 1,1022 1,1348 1,1418 1,1430 1,1438 1,1688 1}
+{0 NY,22 1,169 1,376 1,638 1,874 1,1025 1,1109 1,1334 1,1595 1,1668 1,1826 1,1838 1,1884 1}
+{0 NY,22 1,376 1,839 1,894 1,1197 1,1496 1,1497 1,1579 1}
+{0 NY,22 1,376 1,1009 1,1025 1,1360 1,1377 1,1555 1,1596 1,1702 1,1881 1,1902 1}
+{0 NY,213 1,522 1,734 1,933 1,1716 1,1880 1}
+{0 NY,17 1,22 1,376 1,891 1,954 1,976 1,1005 1,1093 1,1103 1,1295 1,1418 1,1575 1,1733 1,1878 1}
+{0 NY,23 1,25 1,169 1,214 1,376 1,441 1,789 1,995 1,1060 1,1099 1,1365 1,1468 1,1486 1,1527 1,1657 1,1768 1,1769 1}
+{0 NY,15 1,23 1,376 1,764 1,803 1,827 1,845 1,858 1,860 1,863 1,865 1,965 1,1079 1,1660 1,1738 1}
+{0 NY,22 1,376 1,639 1,778 1,1333 1,1394 1,1557 1,1610 1,1911 1}
+{0 NY,22 1,376 1,472 1,797 1,1179 1,1554 1,1596 1}
+{0 NY,23 1,169 1,214 1,246 1,312 1,376 1,520 1,736 1,890 1,1060 1,1130 1,1662 1,1807 1,1895 1,1896 1}
+{0 NY,15 1,828 1,849 1,881 1,1186 1,1301 1,1318 1,1676 1,1778 1,1894 1}
+{0 NY,15 1,23 1,202 1,271 1,376 1,895 1,1064 1,1165 1,1394 1,1656 1,1661 1,1782 1,1857 1,1899 1}
+{0 NY,759 1,1060 1,1193 1,1226 1,1688 1,1705 1,1752 1,1885 1}
+{0 NY,190 1,824 1,829 1,836 1,1689 1}
+{0 NY,22 1,376 1,637 1,684 1,977 1,985 1,1075 1,1132 1,1586 1}
+{0 NY,22 1,376 1,637 1,684 1,960 1,1057 1,1075 1,1132 1,1419 1,1606 1}
+{0 NY,22 1,169 1,376 1,510 1,807 1,969 1,989 1,1061 1,1256 1,1427 1,1607 1,1679 1,1780 1,1869 1,1904 1}
+{0 NY,105 1,376 1,666 1,994 1,1060 1,1078 1,1172 1,1342 1,1503 1,1635 1,1730 1,1872 1}
+{0 NY,136 1,432 1,501 1,529 1,554 1,702 1,794 1,1011 1,1894 1}
+{0 NY,723 1,1001 1,1154 1,1819 1}
+{0 NY,723 1,1433 1,1847 1}
+{206 1,285 1,343 1}
+{78 1,223 1,330 1,335 1,461 1,545 1,559 1}
+{24 1,208 1,262 1,376 1,393 1,539 1}
+{0 NY,17 1,22 1,376 1,702 1,801 1,920 1,983 1,1079 1,1107 1,1209 1,1222 1,1383 1,1599 1,1747 1,1878 1,1925 1}
+{27 1,374 1,391 1,408 1,512 1,525 1,532 1,551 1,554 1}
+{344 1,521 1}
+{32 1,141 1,288 1,373 1,383 1,434 1,457 1,529 1,568 1,571 1}
+{0 NY,22 1,376 1,1061 1,1198 1,1210 1,1285 1,1393 1,1410 1,1571 1,1822 1}
+{0 NY,22 1,113 1,376 1,898 1,981 1,1061 1,1220 1,1302 1,1313 1,1490 1,1581 1,1732 1}
+{15 1,221 1,267 1,380 1,482 1,555 1}
+{36 1,141 1,241 1,278 1,363 1,383 1}
+{76 1,241 1,298 1,354 1,393 1,477 1,483 1}
+{431 1,442 1,460 1}
+{17 1,57 1,333 1,588 1}
+{34 1,47 1,50 1,62 1,63 1,70 1,72 1,82 1,336 1}
+{286 1,318 1}
+{0 NY,15 1,22 1,297 1,376 1,596 1,730 1,918 1,951 1,1016 1,1042 1,1068 1,1128 1,1394 1,1573 1,1640 1}
+{0 NY,15 1,22 1,376 1,731 1,918 1,1016 1,1042 1,1068 1,1127 1,1128 1,1326 1,1394 1,1482 1,1553 1,1574 1}
+{0 NY,22 1,376 1,615 1,892 1,937 1,1176 1,1478 1,1583 1,1642 1,1731 1}
+{172 1,201 1,350 1,351 1,492 1,500 1,528 1,597 1}
+{0 NY,22 1,337 1,376 1,482 1,635 1,854 1,1114 1,1565 1,1611 1}
+{0 NY,22 1,376 1,912 1,1114 1,1222 1,1567 1,1611 1}
+{0 NY,190 1,834 1,1424 1,1476 1,1553 1}
+{0 NY,843 1,1389 1,1756 1}
+{0 NY,22 1,376 1,598 1,798 1,892 1,936 1,1051 1,1176 1,1218 1,1219 1,1267 1,1593 1,1801 1}
+{0 NY,17 1,22 1,376 1,687 1,707 1,898 1,922 1,934 1,1032 1,1121 1,1148 1,1238 1,1587 1,1729 1,1767 1}
+{0 NY,199 1,376 1,672 1,862 1,973 1,1314 1,1403 1}
+{0 NY,22 1,376 1,777 1,1011 1,1089 1,1278 1,1374 1,1591 1}
+{0 NY,22 1,108 1,376 1,702 1,781 1,1364 1,1374 1,1417 1,1555 1,1591 1,1688 1,1706 1,1712 1}
+{235 1,489 1,515 1,588 1}
+{0 NY,547 1,851 1,908 1}
+{303 1,388 1,481 1}
+{241 1,393 1,414 1}
+{0 NY,26 1,461 1,654 1,737 1}
+{24 1,26 1,33 1,218 1,223 1,232 1,265 1,285 1,361 1,376 1}
+{0 NY,15 1,23 1,376 1,821 1,835 1,875 1,892 1,1028 1,1060 1,1124 1,1175 1,1653 1,1717 1,1758 1,1800 1}
+{0 NY,169 1,376 1,669 1,857 1,892 1,902 1,1071 1,1104 1,1111 1,1176 1,1665 1}
+{0 NY,190 1,841 1,1054 1}
+{0 NY,23 1,169 1,376 1,615 1,892 1,1028 1,1101 1,1124 1,1175 1,1414 1,1653 1,1672 1,1717 1,1758 1,1800 1}
+{0 NY,22 1,169 1,190 1,376 1,635 1,854 1,907 1,928 1,931 1,967 1,1010 1,1062 1,1169 1,1451 1,1570 1}
+{24 1,248 1,263 1,376 1,424 1,439 1,480 1}
+{31 1,219 1,231 1,352 1,378 1,441 1,455 1,516 1,524 1,568 1}
+{141 1,268 1,281 1,537 1}
+{14 1,205 1,250 1,251 1,274 1,414 1,436 1}
+{227 1,299 1,313 1,359 1,385 1,493 1,534 1,568 1,596 1}
+{15 1,49 1,64 1,76 1,82 1,244 1,292 1,300 1,491 1}
+{511 1,549 1}
+{125 1,228 1,504 1}
+{15 1,229 1,347 1,383 1,547 1,589 1}
+{0 NY,17 1,22 1,214 1,318 1,376 1,802 1,1190 1,1577 1,1634 1,1901 1}
+{0 NY,15 1,22 1,169 1,376 1,747 1,903 1,984 1,1008 1,1060 1,1065 1,1134 1,1494 1,1564 1,1584 1}
+{0 NY,22 1,376 1,676 1,882 1,887 1,901 1,969 1,1007 1,1136 1,1352 1,1604 1,1871 1}
+{}
+{0 NY,23 1,376 1,598 1,686 1,704 1,1101 1,1653 1,1717 1,1758 1,1798 1,1799 1}
+{0 NY,376 1,668 1,765 1,817 1,892 1,1056 1,1176 1,1533 1,1948 1}
+{241 1,247 1,554 1,573 1}
+{0 NY,22 1,376 1,510 1,612 1,899 1,913 1,1015 1,1291 1,1394 1,1588 1,1687 1}
+{7 1,273 1,341 1,357 1,562 1}
+{0 NY,376 1,669 1,764 1,1007 1,1136 1,1666 1,1779 1,1785 1,1948 1}
+{24 1,33 1,245 1,256 1,376 1,411 1,452 1,554 1}
+{0 NY,431 1,554 1,780 1,822 1,964 1,1076 1,1766 1}
+{83 1,158 1,240 1,397 1,430 1,528 1}
+{20 1,28 1,45 1,169 1,199 1,216 1,242 1,287 1,290 1,293 1,394 1,404 1}
+{37 1,188 1,291 1,331 1,369 1,468 1,486 1,554 1}
+{15 1,25 1,78 1,223 1,232 1,243 1,249 1,361 1,581 1,585 1}
+{6 1,95 1,122 1,136 1,185 1,448 1,528 1,554 1,582 1}
+{0 NY,22 1,202 1,376 1,755 1,978 1,1002 1,1101 1,1569 1,1719 1,1958 1}
+{0 NY,23 1,202 1,376 1,470 1,510 1,697 1,1064 1,1165 1,1394 1,1652 1,1705 1,1782 1,1855 1,1958 1}
+{136 1,289 1,429 1,527 1,563 1,567 1}
+{1 1,298 1,338 1,349 1,541 1}
+{0 NY,510 1,578 1,729 1,1011 1,1053 1,1165 1,1199 1,1394 1,1751 1,1883 1}
+{0 NY,723 1,1187 1,1470 1}
+{15 1,127 1,148 1,162 1,324 1,425 1,444 1,451 1,471 1,490 1,496 1,552 1,558 1}
+{0 NY,22 1,376 1,612 1,887 1,969 1,1101 1,1179 1,1189 1,1214 1,1496 1,1600 1,1687 1,1908 1}
+{0 NY,190 1,413 1,443 1,716 1,762 1,1191 1,1641 1}
+{15 1,141 1,332 1,508 1}
+{213 1,364 1,412 1}
+{207 1,231 1,392 1,476 1,497 1}
+{42 1,141 1,239 1}
+{0 NY,214 1,376 1,560 1,671 1,966 1,1041 1,1069 1,1088 1,1160 1,1168 1,1359 1,1535 1,1537 1,1620 1,1701 1,1711 1,1944 1}
+{0 NY,22 1,190 1,376 1,675 1,1060 1,1101 1,1152 1,1576 1,1637 1,1698 1,1839 1}
+{0 NY,23 1,297 1,375 1,376 1,717 1,959 1,995 1,1099 1,1394 1,1655 1,1757 1,1764 1,1939 1}
+{0 NY,190 1,751 1,861 1,1839 1,1846 1}
+{328 1,467 1,473 1,479 1,483 1,586 1}
+{0 NY,125 1,567 1,601 1,633 1,1077 1,1269 1,1434 1,1463 1,1501 1,1847 1,1882 1,1897 1}
+{0 NY,602 1,617 1,627 1,698 1,972 1,999 1,1827 1}
+{212 1,387 1,566 1}
+{0 NY,748 1,1694 1}
+{0 NY,22 1,102 1,376 1,426 1,510 1,735 1,888 1,1095 1,1219 1,1589 1,1719 1}
+{0 NY,22 1,246 1,376 1,1048 1,1060 1,1206 1,1285 1,1345 1,1388 1,1566 1,1605 1}
+{0 NY,17 1,71 1,169 1,376 1,670 1,892 1,905 1,927 1,932 1,1003 1,1112 1,1176 1,1185 1,1625 1,1700 1,1874 1}
+{0 NY,22 1,376 1,710 1,726 1,806 1,892 1,936 1,937 1,1003 1,1051 1,1176 1,1219 1,1227 1,1344 1,1356 1,1580 1,1717 1,1798 1}
+{0 NY,643 1,885 1,947 1}
+{366 1,527 1,530 1,578 1,597 1}
+{277 1,526 1}
+{9 1,158 1,251 1,254 1,285 1,478 1,514 1,542 1,544 1,554 1}
+{0 NY,169 1,376 1,664 1,714 1,760 1,1328 1,1515 1,1721 1}
+{0 NY,278 1,333 1,388 1,408 1,500 1,582 1,663 1,867 1,1039 1,1376 1,1488 1,1727 1}
+{0 NY,663 1,878 1,1319 1,1482 1}
+{0 NY,376 1,630 1,665 1,1096 1,1349 1,1511 1,1623 1,1631 1,1760 1,1811 1,1875 1}
+{0 NY,770 1,1047 1,1437 1}
+{0 NY,22 1,189 1,376 1,675 1,1060 1,1101 1,1152 1,1576 1,1637 1,1698 1,1839 1}
+{5 1,18 1,102 1,133 1,284 1,314 1,330 1,372 1,456 1,470 1}
+{0 NY,190 1,713 1,1550 1}
+{0 NY,809 1,1152 1,1471 1,1477 1,1539 1,1713 1,1786 1,1958 1}
+{78 1,223 1,402 1,475 1,506 1}
+{0 NY,22 1,169 1,376 1,603 1,784 1,892 1,1176 1,1355 1,1400 1,1439 1,1502 1,1597 1}
+{0 NY,376 1,400 1,665 1,769 1,1012 1,1122 1,1157 1,1544 1,1629 1,1755 1,1901 1,1905 1}
+{24 1,67 1,86 1,123 1,190 1,193 1,257 1,376 1,423 1}
+{41 1,85 1,203 1,408 1}
+{80 1,141 1,151 1,302 1,522 1}
+{15 1,18 1,68 1,413 1,431 1,443 1,584 1}
+{53 1,56 1,466 1}
+{39 1,44 1,253 1,307 1,517 1,519 1,595 1}
+{10 1,297 1,356 1,458 1,536 1}
+{0 NY,22 1,113 1,376 1,958 1,1380 1,1381 1,1458 1,1481 1,1490 1,1592 1}
+{0 NY,208 1,426 1,744 1,773 1,1955 1}
+{0 NY,22 1,218 1,376 1,879 1,1145 1,1616 1}
+{0 NY,775 1,1379 1,1648 1}
+{0 NY,22 1,376 1,614 1,687 1,887 1,898 1,969 1,1064 1,1189 1,1601 1,1688 1}
+{320 1,334 1,432 1,531 1}
+{0 NY,649 1}
+{0 NY,792 1,1887 1}
+{0 NY,792 1,1339 1}
+{0 NY,792 1,1204 1}
+{0 NY,792 1,1204 1,1208 1,1522 1,1887 1}
+{0 NY,792 1}
+{0 NY,600 1,753 1,1479 1}
+{222 1,276 1,284 1,308 1,401 1,464 1,472 1,538 1}
+{24 1,255 1,376 1,383 1}
+{219 1,441 1,484 1,533 1,596 1}
+{81 1,353 1,503 1}
+{0 NY,628 1}
+{0 NY,623 1,632 1,871 1,1464 1,1804 1,1854 1,1928 1}
+{0 NY,871 1,1523 1}
+{15 1,340 1,348 1,388 1,433 1,465 1,572 1}
+{280 1,322 1,487 1,577 1}
+{55 1,61 1,110 1,159 1,169 1,215 1,230 1,251 1,309 1,325 1,350 1,351 1,408 1,409 1,556 1}
+{305 1,427 1}
+{0 NY,610 1,611 1,1274 1,1860 1}
+{0 NY,677 1,832 1,1520 1,1788 1,1853 1,1897 1}
+{0 NY,792 1,1812 1,1930 1}
+{0 NY,645 1,1149 1}
+{0 NY,408 1,647 1,950 1,1212 1,1391 1,1442 1,1483 1,1681 1,1774 1,1797 1}
+{73 1,128 1,189 1,315 1,501 1,543 1,547 1,564 1,593 1}
+{74 1,128 1,189 1,315 1,501 1,543 1,547 1,564 1,593 1}
+{24 1,73 1,103 1,234 1,258 1,279 1,345 1,376 1,377 1,499 1}
+{0 NY,624 1,1859 1}
+{0 NY,297 1,646 1,774 1,1083 1,1241 1,1530 1,1685 1}
+{0 NY,22 1,376 1,510 1,653 1,913 1,1063 1,1101 1,1170 1,1184 1,1394 1,1588 1,1687 1,1908 1}
+{0 NY,22 1,189 1,376 1,675 1,1060 1,1101 1,1152 1,1576 1,1637 1,1698 1,1839 1}
+{0 NY,785 1,940 1,1718 1,1839 1,1845 1,1900 1}
+{0 NY,190 1,785 1}
+{0 NY,837 1,1363 1}
+{267 1,326 1,382 1,515 1}
+{17 1,79 1,156 1,333 1,390 1}
+{0 NY,189 1,785 1}
+{136 1,154 1,170 1,408 1,410 1,426 1,441 1}
+{58 1,141 1,225 1,284 1,337 1,432 1,477 1}
+{0 NY,622 1,1113 1,1696 1,1748 1,1951 1}
+{0 NY,297 1,469 1,838 1,1045 1,1325 1}
+{0 NY,332 1,554 1,949 1,1327 1,1749 1,1771 1,1862 1}
+{0 NY,238 1,1409 1,1714 1,1722 1,1805 1,1810 1,1942 1}
+{0 NY,450 1,626 1,838 1,1269 1,1325 1,1562 1,1897 1,1954 1}
+{54 1,136 1,220 1,272 1,389 1,399 1,459 1,513 1}
+{236 1,301 1,458 1}
+{24 1,260 1,376 1,505 1}
+{0 NY,22 1,31 1,113 1,376 1,929 1,1060 1,1067 1,1266 1,1460 1,1578 1,1735 1,1754 1,1878 1}
+{0 NY,22 1,190 1,376 1,408 1,1060 1,1152 1,1475 1,1477 1,1576 1,1839 1,1923 1}
+{0 NY,627 1,1038 1}
+{0 NY,136 1,190 1,750 1,935 1,1002 1,1437 1,1564 1,1746 1,1839 1,1846 1,1850 1}
+{40 1,190 1,295 1,357 1,360 1,582 1}
+{66 1,74 1,75 1,246 1,252 1,269 1,583 1}
+{26 1,143 1,208 1,266 1,304 1,323 1,337 1,358 1,375 1,398 1,438 1,474 1,584 1}
+{0 NY,844 1,850 1,1060 1,1193 1,1201 1,1404 1}
+{13 1,271 1,522 1}
+{49 1,283 1,384 1}
+{81 1,353 1,507 1}
+{0 NY,23 1,284 1,376 1,510 1,886 1,907 1,913 1,1060 1,1170 1,1214 1,1394 1,1496 1,1659 1,1663 1,1908 1}
+{0 NY,961 1,1137 1,1741 1,1877 1}
+{17 1,22 1,69 1,90 1,179 1,183 1,362 1,376 1,420 1,450 1,466 1}
+{17 1,19 1,22 1,48 1,65 1,131 1,134 1,210 1,246 1,282 1,310 1,376 1,418 1,428 1,449 1,520 1,561 1}
+{0 NY,15 1,23 1,284 1,376 1,510 1,886 1,907 1,913 1,1060 1,1170 1,1214 1,1394 1,1496 1,1659 1,1663 1,1908 1}
+{0 NY,957 1}
+{0 NY,692 1,702 1,771 1,1178 1,1558 1,1560 1,1621 1}
+{0 NY,648 1,859 1,974 1,1269 1,1447 1,1464 1,1474 1,1480 1,1813 1}
+{0 NY,236 1,392 1,504 1,690 1,812 1,1315 1,1844 1,1952 1}
+{0 NY,383 1,686 1,1186 1,1340 1,1781 1}
+{0 NY,17 1,771 1,1562 1}
+{0 NY,771 1,1406 1,1568 1,1891 1}
+{0 NY,767 1,1361 1}
+{0 NY,371 1,771 1,1817 1}
+{0 NY,215 1,382 1,771 1,1236 1,1264 1,1341 1}
+{0 NY,771 1,1358 1,1562 1,1628 1}
+{0 NY,613 1,1221 1,1235 1,1838 1}
+{0 NY,226 1,588 1,926 1,1207 1,1277 1,1330 1,1350 1,1378 1}
+{0 NY,17 1,771 1}
+{0 NY,651 1,742 1,1080 1,1194 1,1265 1,1294 1,1644 1,1865 1,1886 1,1898 1}
+{0 NY,25 1,207 1,552 1,1090 1,1271 1,1358 1,1448 1,1500 1,1729 1,1852 1}
+{0 NY,197 1,661 1,909 1,1123 1,1407 1,1924 1}
+{0 NY,136 1,341 1,1450 1,1551 1,1888 1}
+{0 NY,604 1,1358 1,1464 1,1547 1,1763 1,1849 1,1876 1,1897 1}
+{0 NY,992 1,1231 1,1452 1}
+{0 NY,24 1,169 1,376 1,660 1,743 1,855 1,904 1,990 1,1260 1,1311 1,1518 1,1622 1,1907 1}
+{0 NY,268 1,450 1,608 1,1223 1,1405 1,1546 1,1723 1}
+{0 NY,215 1,870 1,1562 1,1617 1,1724 1,1793 1}
+{0 NY,25 1,215 1,373 1,483 1,515 1,749 1,1255 1,1402 1,1546 1,1558 1,1678 1,1723 1,1863 1}
+{0 NY,17 1,215 1,504 1,1232 1,1246 1,1296 1,1303 1,1338 1,1341 1,1350 1,1386 1,1467 1,1549 1,1552 1,1792 1,1952 1}
+{0 NY,304 1,383 1,405 1,870 1,1282 1,1312 1,1459 1,1521 1,1568 1,1697 1}
+{0 NY,870 1,1235 1}
+{0 NY,392 1,749 1,1358 1,1385 1,1519 1,1950 1}
+{0 NY,426 1,640 1,872 1,1479 1,1695 1,1854 1}
+{0 NY,17 1,830 1,948 1,1039 1,1091 1,1142 1,1143 1,1952 1}
+{0 NY,554 1,656 1,1675 1}
+{0 NY,25 1,226 1,243 1,275 1,749 1,1202 1,1257 1,1338 1,1350 1,1465 1,1487 1,1531 1,1546 1,1831 1,1834 1,1937 1,1940 1}
+{0 NY,426 1,872 1,1728 1,1854 1}
+{0 NY,631 1,749 1,1558 1,1833 1,1861 1}
+{0 NY,231 1,1139 1,1289 1,1429 1,1643 1,1818 1,1834 1,1937 1,1942 1}
+{0 NY,130 1,914 1,987 1,1066 1,1150 1}
+{0 NY,24 1,171 1,196 1,376 1,833 1,923 1,924 1,1074 1,1309 1,1490 1,1773 1}
+{0 NY,17 1,130 1,783 1,987 1,1066 1}
+{0 NY,24 1,376 1,752 1,1307 1,1422 1}
+{0 NY,285 1,344 1,373 1,407 1,504 1,866 1,1791 1,1915 1,1925 1}
+{0 NY,17 1,866 1,1955 1}
+{0 NY,17 1,866 1,1357 1,1568 1}
+{0 NY,381 1,383 1,1248 1,1292 1,1650 1,1651 1,1809 1}
+{0 NY,359 1,1066 1,1234 1,1324 1,1715 1,1858 1}
+{0 NY,17 1,873 1,1253 1,1440 1,1737 1}
+{0 NY,17 1,408 1,547 1,783 1,1229 1,1373 1,1532 1,1814 1,1836 1}
+{0 NY,330 1,1358 1,1562 1,1886 1}
+{0 NY,772 1,1117 1,1155 1,1903 1}
+{0 NY,17 1,873 1}
+{0 NY,659 1,982 1,1841 1,1907 1}
+{0 NY,652 1,768 1,1211 1,1283 1,1343 1,1371 1,1441 1,1562 1,1718 1,1870 1,1936 1,1950 1}
+{0 NY,141 1,376 1,667 1,733 1,898 1,1034 1,1087 1,1565 1,1667 1}
+{0 NY,405 1,917 1,925 1,1092 1,1094 1,1106 1,1158 1,1242 1,1252 1,1428 1,1521 1,1684 1,1803 1,1806 1,1927 1,1952 1}
+{0 NY,17 1,768 1,1686 1,1873 1}
+{0 NY,17 1,25 1,169 1,719 1,884 1,1116 1,1254 1,1568 1,1744 1,1772 1,1838 1,1866 1}
+{0 NY,15 1,24 1,365 1,376 1,629 1,711 1,739 1,1161 1,1277 1,1308 1,1431 1,1838 1}
+{0 NY,719 1,1897 1,1926 1}
+{0 NY,17 1,768 1,1240 1}
+{0 NY,693 1,1046 1,1247 1,1305 1,1316 1,1489 1,1541 1,1646 1,1745 1,1830 1,1868 1,1937 1}
+{0 NY,768 1,988 1,1562 1}
+{0 NY,17 1,251 1,766 1,1270 1,1421 1,1430 1,1534 1,1627 1,1789 1}
+{0 NY,17 1,22 1,376 1,852 1,968 1,1050 1,1070 1,1097 1,1398 1,1509 1,1613 1,1669 1}
+{0 NY,768 1,1259 1,1750 1,1843 1}
+{0 NY,787 1,1217 1,1426 1,1505 1,1508 1}
+{0 NY,242 1,657 1,1231 1,1375 1,1682 1,1890 1,1907 1}
+{0 NY,189 1,787 1,1426 1,1543 1,1548 1,1820 1}
+{0 NY,141 1,662 1,1059 1,1081 1,1258 1,1938 1}
+{0 NY,768 1,1562 1,1725 1,1818 1}
+{0 NY,17 1,768 1,1358 1,1674 1}
+{0 NY,17 1,782 1,1432 1}
+{0 NY,725 1,980 1,1244 1,1498 1,1562 1,1897 1}
+{0 NY,383 1,1288 1,1455 1}
+{0 NY,17 1,768 1}
+{0 NY,25 1,28 1,332 1,504 1,594 1,1147 1,1174 1,1243 1,1287 1,1338 1,1358 1,1808 1,1879 1}
+{0 NY,25 1,190 1,640 1,1632 1}
+{0 NY,916 1,1794 1,1945 1}
+{0 NY,359 1,1281 1,1441 1}
+{0 NY,504 1,641 1,1146 1,1250 1,1279 1,1492 1,1703 1,1742 1}
+{0 NY,599 1,621 1,816 1,1292 1,1484 1}
+{0 NY,705 1,869 1,1693 1,1776 1,1954 1}
+{0 NY,621 1,776 1,786 1,1382 1,1436 1}
+{0 NY,547 1,840 1,1624 1}
+{0 NY,547 1,754 1}
+{0 NY,407 1,546 1,584 1,883 1,1387 1,1632 1,1913 1}
+{0 NY,136 1,1231 1,1367 1}
+{0 NY,449 1,547 1,799 1,1504 1,1861 1}
+{0 NY,25 1,460 1,1162 1,1195 1,1233 1,1249 1,1528 1,1556 1,1775 1,1889 1}
+{0 NY,560 1,756 1,926 1}
+{0 NY,788 1,1840 1}
+{0 NY,1049 1,1066 1}
+{0 NY,504 1,720 1,1292 1,1372 1,1477 1,1705 1,1715 1,1906 1}
+{0 NY,728 1,1432 1}
+{0 NY,779 1,1432 1}
+{0 NY,297 1,793 1,971 1,972 1,979 1,1173 1,1196 1,1450 1,1876 1}
+{0 NY,738 1,1649 1}
+{0 NY,24 1,376 1,683 1,741 1,1262 1,1310 1,1399 1,1824 1,1835 1}
+{0 NY,284 1,371 1,547 1,783 1,1770 1,1897 1,1941 1}
+{0 NY,17 1,738 1}
+{0 NY,17 1,711 1,783 1,1268 1,1306 1,1431 1,1453 1,1491 1,1814 1}
+{24 1,71 1,99 1,169 1,171 1,178 1,196 1,200 1,259 1,376 1}
+{0 NY,766 1,1649 1}
+{0 NY,461 1,766 1,1464 1,1842 1,1919 1}
+{0 NY,291 1,554 1,689 1,766 1,1897 1,1910 1}
+{0 NY,25 1,708 1,1084 1,1230 1,1407 1,1683 1,1715 1,1864 1,1953 1}
+{0 NY,1231 1,1915 1}
+{0 NY,674 1,1628 1,1761 1}
+{0 NY,654 1,712 1,721 1,1379 1,1386 1,1430 1,1563 1,1959 1,1960 1}
+{0 NY,896 1,1026 1,1159 1,1192 1,1370 1,1450 1,1710 1,1929 1}
+{50 1,570 1,590 1}
+{50 1,92 1,147 1,271 1,379 1,560 1}
+{15 1,59 1,77 1,114 1,132 1,197 1,365 1,367 1,447 1,554 1}
+{77 1,97 1,233 1,463 1,518 1}
+{52 1,575 1,579 1,594 1}
+{2 1,25 1,30 1,60 1,77 1,107 1,153 1,226 1}
+{0 NY,609 1,625 1}
+{0 NY,278 1,1049 1,1402 1,1540 1,1649 1,1753 1}
+{0 NY,280 1,320 1,606 1,1205 1,1331 1,1342 1,1918 1}
+{0 NY,504 1,1299 1,1538 1,1704 1,1937 1}
+{0 NY,383 1,1138 1,1292 1,1618 1,1952 1}
+{15 1,16 1,21 1,112 1,120 1,124 1,138 1,139 1,150 1,160 1,174 1,270 1,376 1,580 1}
+{0 NY,25 1,1246 1,1425 1,1525 1,1529 1,1851 1,1916 1,1922 1}
+{0 NY,956 1,1237 1,1815 1,1893 1,1957 1}
+{96 1,130 1,140 1,237 1,495 1}
+{0 NY,243 1,910 1,911 1,956 1,1039 1,1164 1,1249 1,1825 1,1949 1}
+{50 1,135 1,137 1,242 1,284 1,369 1,381 1,408 1,454 1,498 1}
+{119 1,125 1,155 1,224 1,370 1,400 1,437 1,515 1}
+{46 1,316 1,346 1,453 1,518 1,553 1,592 1}
+{0 NY,1358 1,1618 1,1704 1}
+{0 NY,756 1,1638 1}
+{0 NY,691 1,921 1,945 1,1180 1,1379 1,1699 1}
+{0 NY,826 1,1263 1,1499 1}
+{0 NY,732 1,1445 1,1618 1,1640 1}
+{0 NY,1110 1,1115 1}
+{0 NY,25 1,33 1,383 1,482 1,654 1,695 1,1245 1,1306 1,1338 1,1455 1,1552 1,1568 1,1690 1,1766 1,1795 1,1856 1,1867 1,1946 1}
+{0 NY,383 1,504 1,715 1,1046 1,1420 1,1892 1,1897 1}
+{0 NY,658 1,1082 1,1086 1,1271 1,1552 1,1796 1}
+{0 NY,715 1,1205 1,1461 1,1562 1}
+{0 NY,644 1,685 1,1085 1,1213 1,1275 1,1456 1,1462 1,1469 1,1736 1,1816 1}
+{0 NY,17 1,715 1}
+{0 NY,915 1,1040 1,1140 1,1454 1,1931 1,1937 1}
+{0 NY,359 1,950 1,1375 1,1449 1,1921 1}
+{0 NY,655 1,1276 1,1632 1,1907 1,1917 1}
+{0 NY,727 1,919 1,1004 1,1021 1,1559 1,1956 1}
+{0 NY,389 1,502 1,997 1,1055 1,1100 1,1120 1,1338 1,1346 1,1412 1,1457 1,1516 1,1552 1,1777 1,1823 1,1912 1}
+{0 NY,136 1,281 1,329 1,383 1,944 1,996 1,1304 1,1336 1,1420 1,1421 1,1636 1}
+{0 NY,297 1,962 1,991 1,1261 1,1351 1,1914 1}
+{0 NY,607 1,915 1,939 1,1006 1,1017 1,1040 1,1052 1,1058 1,1153 1}
+{0 NY,915 1,1040 1,1073 1,1085 1,1347 1,1935 1,1943 1}
+{0 NY,650 1,815 1,1473 1}
+{43 1,306 1,501 1,502 1,574 1}
+{24 1,141 1,149 1,180 1,186 1,214 1,261 1,275 1,312 1,376 1,535 1}
+{0 NY,381 1,547 1,590 1,810 1,1197 1,1223 1,1366 1,1413 1,1691 1,1847 1,1909 1,1947 1}
+{0 NY,321 1,680 1,718 1,1395 1,1455 1,1513 1,1639 1,1709 1}
+{0 NY,636 1,1286 1,1293 1,1329 1,1401 1,1446 1,1542 1,1670 1,1673 1}
+{0 NY,547 1,746 1,1466 1}
+{0 NY,796 1,1401 1,1542 1,1673 1}
+{0 NY,426 1,796 1,1322 1,1517 1,1743 1,1883 1,1954 1}
+{0 NY,291 1,796 1,1416 1,1485 1,1513 1,1524 1,1740 1,1759 1,1787 1}
+{0 NY,302 1,408 1,681 1,682 1,796 1,1320 1,1633 1,1762 1,1954 1}
+{0 NY,6 1}
+{51 1,108 1,135 1,296 1,386 1,405 1,451 1,558 1,569 1}
+{24 1,43 1,105 1,264 1,323 1,339 1,376 1,501 1,509 1,523 1}
+{43 1,202 1,334 1,371 1,407 1,510 1,546 1}
+{43 1,403 1,557 1,583 1}
+{22 1,94 1,98 1,118 1,129 1,152 1,376 1,396 1,419 1,440 1,469 1,550 1}
+{22 1,88 1,101 1,118 1,161 1,164 1,175 1,181 1,184 1,192 1,376 1,422 1}
+{0 NY,620 1,871 1,1126 1,1802 1,1887 1,1915 1}
+{0 NY,642 1,694 1,846 1}
+{0 NY,846 1,1475 1,1619 1,1848 1,1887 1}
+{0 NY,504 1,618 1,753 1,1337 1,1369 1,1526 1,1821 1,1897 1}
+{0 NY,22 1,93 1,118 1,376 1,684 1,688 1,906 1,930 1,1019 1,1028 1,1102 1,1108 1,1183 1,1612 1}
+{0 NY,724 1,1469 1}
+{22 1,84 1,93 1,111 1,116 1,118 1,142 1,167 1,173 1,187 1,191 1,194 1,198 1,376 1,421 1}
+{211 1,285 1,321 1,406 1,515 1}
+{348 1,383 1,435 1}
+{0 NY,22 1,376 1,543 1,825 1,842 1,1037 1,1300 1,1353 1,1362 1,1506 1,1614 1,1901 1}
+{267 1,284 1,368 1,380 1,400 1,408 1,540 1,576 1}
+{29 1,113 1,130 1,182 1,195 1}
+{11 1,12 1,17 1,22 1,91 1,100 1,104 1,106 1,121 1,146 1,157 1,177 1,376 1,417 1}
+{11 1,12 1,17 1,22 1,91 1,100 1,104 1,106 1,121 1,146 1,157 1,177 1,376 1,415 1}
+{8 1,17 1,22 1,87 1,109 1,115 1,117 1,126 1,144 1,165 1,176 1,327 1,376 1,416 1}
+{0 NY,1156 1}
+{4 1,23 1,38 1,168 1,204 1,218 1,311 1,317 1,376 1,445 1,461 1,548 1}
+{4 1,35 1,197 1,342 1}
+{3 1,163 1,169 1,565 1}
+{4 1,23 1,166 1,168 1,204 1,218 1,280 1,311 1,317 1,376 1,445 1,461 1,462 1,485 1}
