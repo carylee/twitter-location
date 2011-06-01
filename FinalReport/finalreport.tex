@@ -1,5 +1,5 @@
 \documentclass[12pt]{article}
-\usepackage[left = 3cm,top=2cm,right=3cm,nohead, letterpaper]{geometry}                
+\usepackage[left = 3cm,right=3cm,nohead, letterpaper]{geometry}                
 \usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
 \usepackage{graphicx}
 \usepackage{amssymb}
@@ -19,24 +19,56 @@
 \section*{Introduction}
 Twitter contains a vast recorded collection of human interaction. With its easy data scraping and open nature, it represents nice collection of information for a researcher. Recently, Twitter added a feature allowing users to keep track of their location via their phone's GPS coordinates. We are interested in the following question: ``Can someone determine a tweeter's location based off of the content of the tweet alone?"
 
-This question has been a hot topic in the news as of late, with reported robberies and many concerns over the public data available in tweets \cite{twrob}. The GPS information combined with Twitter's large user base, may provide enough data to build a distribution of user locations given the tweet text. 
+This question has been a hot topic in the news as of late, with reported robberies and many concerns over the public data available in tweets \cite{twrob}, \cite{twpriv}. The GPS information combined with Twitter's large user base, may provide enough data to build a distribution of user locations given the tweet text. 
 
 In this report we present our method of gathering Twitter data and provide some results of our basic attempt at solving this problem. We utilize WEKA and the Twitter API to collect and process tweets. We represent the tweets as a word vector and run a Naive Bayes classifier on this representation. We also present results from two other slices of this data: one tracking a user's location history, and one examining only the tweets emanating from New York and Los Angeles. 
 
 \section*{Data Collection}
-We collected the tweet data by scraping twitter once an hour for a week. We wrote a short scraping script that collects tweets from the public timeline, collects the friends of those users, and then grabs 200 most recent tweets from each user in this collection. In this report we only examine tweets that were produced with a geo-tagged location provided by a GPS device. The geo-tags contain bounding box information and a location. We used this location to produce city, state/country pairs. 
+We collected the tweet data by scraping twitter once an hour for a week. We wrote a short scraping script that collects tweets from the public timeline, collects the friends of those users, and then grabs 200 most recent tweets from each user in this collection. In this report we only examine tweets that were produced with a geo-tagged location provided by a GPS device. The geo-tags contai	n bounding box information and a location. We used this location to produce city, state/country pairs. 
 
-After running this scrapper for a week we obtained just over 22,000 geo-tagged tweets from 621 different users. ****INsert number of cites here (maybe a table that summarizes this information?)***
+After running this scrapper for a week we obtained just over 22,000 geo-tagged tweets from 626 different users representing 1474 different places.
 
 Due to the restrictions of the twitter API (there is a limit of 350 queries per hour) we were prohibited from obtaining much more data. As will be discussed later there were also significant scaling issues with running the classifier on even a dataset with 22,000 tweets in it. In addition, our scraping algorithm may bias our data by not allowing for a diverse number of unique users. 
 
 \subsection*{Data Slices}
 In addition to examining our full dataset, we created two subsets from this data to help improve our accuracy and out of general curiosity. The first dataset is a collapsed version of all of the data. The second examines the tweets from two common locations in our dataset, New York City and Los Angeles. 
 
-To build this first data slice we run through a user's tweets and determine which city they most frequently tweet from. We then concatenate all tweets from that user into a single corpus and run the naive bayes algorithm
+To build this first data slice we run through a user's tweets and determine which city they most frequently tweet from. We then concatenate all tweets from that user into a single corpus. This dataset contains corpora from 626 different users. 
+
+The second data slice was constructed by selecting all tweets from New York and all tweets from Los Angeles. unlike the last dataset, we kept each tweet separate. This dataset contained 433 different tweets from 21 different users. 314 of these tweets were from New York, while 119 were from Los Angeles. 
 
 \section*{Results}
-The results we present here were obtained using a similar method to one used by Brent Hecht, et al \cite{bhecht}. 
+The results we present here were obtained using a similar method to one used by Brent Hecht, et al \cite{bhecht}. We take our dataset of corpus, location pairs. We then convert the corpus into a word vector and build a model using the Naive Bayes classification algorithm. The results are summarized in Table ~\ref{table:results}. 
+\begin{table}
+	\begin{center}
+		\begin{tabular}{| l || c | c |}
+			\hline
+			Dataset & Precision (\%) & Recall (\%) \\ \hline
+			Full Dataset & .35 & .343 \\ \hline
+			User Location & 0.026 & 0.042 \\ \hline
+			NY vs LA & 0.739 & 0.76 \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{Results from the three data slices.}
+	\label{table:results}
+\end{table}
+
+***something about the results***
+
+\begin{table}
+	\begin{center}
+		\begin{tabular}{| l || c |}
+			\hline
+			City & Words \\ \hline
+			NY & RT, MoMA, Thanks, exhibition, lol, shit, Ai \\ \hline
+			LA & LA, time, love, day, im, RT, bamboozle \\ 
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{Indicative words for NY and LA.}
+	\label{table:poploc}
+\end{table}
 
 \section*{Conclusions}
 
