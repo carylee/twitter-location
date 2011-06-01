@@ -16,4 +16,10 @@ WAGT Staff.
 \newblock Could twitter robbers get to you?
 \newblock {\em NBC}, 2009.
 
+\bibitem{Zcheng}
+Kyumin~Lee Zhiyuan~Cheng, James~Caverlee.
+\newblock You are where you tweet: A content-based approach to geo-locating
+  twitter users.
+\newblock {\em CIKM 2010}, October 26-30 2010.
+
 \end{thebibliography}
