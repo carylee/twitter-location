@@ -17,7 +17,7 @@
 \begin{document}
 \maketitle
 \section*{Introduction}
-Twitter contains a vast recorded collection of human interaction. With its easy data scraping and open nature, it represents nice collection of information for a researcher. Recently, Twitter added a feature allowing users to keep track of their location via their phone's GPS coordinates. We are interested in the following question: ``Can someone determine a tweeter's location based off of the content of the tweet alone?" 
+Twitter contains a vast recorded collection of human interaction. With its easy data scraping and open nature, it represents a nice collection of information for a researcher. Recently, Twitter added a feature allowing users to keep track of their location via their phone's GPS coordinates. We are interested in the following question: ``Can someone determine a tweeter's location based off of the content of the tweet alone?" 
 
 Depending on what people use twitter for this task seems reasonable. If users tweet about their surroundings, then correlating the text to their location should be straightforward given enough tweets. Regional linguistic patterns may also play a role in determining location \cite{Zcheng}.
 
@@ -28,27 +28,27 @@ In this report we present our method of gathering Twitter data and provide some 
 \section*{Data Collection}
 We collected the tweet data by scraping twitter once an hour for a week. We wrote a short scraping script that collects tweets from the public timeline, collects the friends of those users, and then grabs 200 most recent tweets from each user in this collection. In this report we only examine tweets that were produced with a geo-tagged location provided by a GPS device. The geo-tags contain bounding-box information and a location string. We used this string to produce city, state/country pairs. 
 
-After running this scrapper for a week we obtained just over 22,000 geo-tagged tweets from 626 different users representing 1474 different places.
+After running this scraper for a week we obtained just over 22,000 geo-tagged tweets from 626 different users representing 1474 different places.
 
 Due to the restrictions of the twitter API (there is a limit of 350 queries per hour) we were prohibited from obtaining much more data. As will be discussed later there were also significant scaling issues with running the classifier on even a dataset with 22,000 tweets in it. In addition, our scraping algorithm may bias our data by not allowing for a diverse number of unique users. 
 
 \subsection*{Data Slices}
-In addition to examining our full dataset, we created two subsets from this data to help improve our accuracy and out of general curiosity. The first dataset is a collapsed version of all of the data. The second examines the tweets from two common locations in our dataset, New York City and Los Angeles. 
+In addition to examining our full dataset, we created two subsets from this data out of curiosity and to help improve our accuracy. The first dataset is a collapsed version of all of the data. The second examines the tweets from two common locations in our dataset, New York City and Los Angeles. 
 
-To build this first data slice we run through a user's tweets and determine which city they most frequently tweet from. We then concatenate all tweets from that user into a single corpus. This dataset contains corpora from 626 different users. 
+To build the first data slice we ran through a user's tweets and determined which city they most frequently tweeted from. We then concatenated all tweet text from that user into a single corpus. This dataset contains corpora from 626 different users. 
 
-The second data slice was constructed by selecting all tweets from New York and all tweets from Los Angeles. unlike the last dataset, we kept each tweet separate. This dataset contained 433 different tweets from 21 different users. 314 of these tweets were from New York, while 119 were from Los Angeles. 
+The second data slice was constructed by selecting all tweets from New York and all tweets from Los Angeles. Unlike the last dataset, we kept each tweet text separate. This dataset contained 433 different tweets from 21 different users. 314 of these tweets were from New York, while 119 were from Los Angeles. 
 
 \section*{Results}
-The results we present here were obtained using a similar method to one used by Brent Hecht, et al \cite{bhecht}. We take our dataset of corpus, location pairs. We then convert the corpus into a word vector and build a model using the Naive Bayes classification algorithm. The results are summarized in Table ~\ref{table:results}. 
+The results we present here were obtained using a similar method to one used by Brent Hecht, et al \cite{bhecht}. We combined out corpora of tweet text and corresponding locations as a list of pairs. We then converted the corpora into a word vector and built a model using the Naive Bayes classification algorithm. The results are summarized in Table~\ref{table:results}. 
 \begin{table}
 	\begin{center}
 		\begin{tabular}{| l || c | c |}
 			\hline
 			Dataset & Precision (\%) & Recall (\%) \\ \hline
-			Full Dataset & .35 & .343 \\ \hline
-			User Location & 0.026 & 0.042 \\ \hline
-			NY vs LA & 0.739 & 0.76 \\
+			Full Dataset & --.- & --.- \\ \hline
+			User Location & 2.6 & 4.2 \\ \hline
+			NY vs LA & 73.9 & 76.0 \\
 			\hline
 		\end{tabular}
 	\end{center}
@@ -56,9 +56,11 @@ The results we present here were obtained using a similar method to one used by 
 	\label{table:results}
 \end{table}
 
-***something about the results***
+From our first data slice, we did not have great success yielding only 2.6 percent precision and 4.2 percent recall.  From our NY vs LA slice we had roughly 74 percent precision and 76 percent recall.  
+Not, really sure what else to say...
 
-\begin{table}
+
+\begin{table:words}
 	\begin{center}
 		\begin{tabular}{| l || c |}
 			\hline
@@ -73,10 +75,16 @@ The results we present here were obtained using a similar method to one used by 
 \end{table}
 
 \section*{Conclusions}
+There were a number of discoveries after analysing the results of our experiment however the most apparent was that we needed more data.  Despite scraping for nearly 2 million tweets, only slightly over 1 percent of those were geotagged.  Furthermore, after creating subsets of the data the number of tuples being examined was reduced into the hundreds yielding results that may or may not hold if the dataset was significantly larger.  Lastly, the way in which we collected our tweets may have affected our results in that by getting users who were friends of other users we likely restricted our geographic diversity.  
 
+That being said, there were some observations that suggested that this method can be used and could easily be more successful with some minor refinements.  For instance, Table~\ref{table:words} shows some of the indicative words for both New York and Los Angeles.  While some words certainly do not seem like they are closely related to location (e.g. lol, shit, Thanks), others such as MoMA (The Museum of Modern Art in New York) are highly correlated to a specific place.  Similarly, LA and bamboozle (a music festival in LA) were found to be indicative of Los Angeles.
+
+The high precision and recall seen in the NY vs LA certainly is encouraging however the small size of this particular subset could call into question the validity of these results.  Having so few tweets means that there was not a lot of noise present and given that these tweets all came from a meer 21 tweeters the text in our corpus is not likely to be overly indicative of the New York or Los Angeles vernacular.
 
 \section*{Next Steps}
+The most import next step would be to rebuild the dataset.  Rather than grabbing tweets from friends and rather than grabbing a larger number of tweets from a given user, it would be better from a diversity standpoint to just grab random tweets off of the twitter timeline.  This would eliminate having any location clustering or biasing as well as having more user coverage.
 
+Another interesting next step would be to try and use the bounding box associated with the geotagged tweets rather than the location names.  After that, it would be possible to build a probability distribution across different regional granularities for a given tweet.  This would make more sense for some tweets as a given tweet might contain fine granularity information like an address and some might contain course information like "y'all".  
 
 \bibliographystyle{plain}
 \bibliography{bib}
