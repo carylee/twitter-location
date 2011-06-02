@@ -60,7 +60,7 @@ From our first data slice, we did not have great success yielding only 2.6 perce
 
 The low accuracy of the User Location data can be explained by the lower number of unique users in our dataset. Hand inspection of our data reveals that most users tweet most often from a unique city in our dataset. Thus the model will have a difficult time discerning between cities as only one corpora represents that city. In addition, by concatenating all tweets, regardless of whether they emanated from the most popular location, together introduces significant noise into the corpora. For example, one user tweeted from both New York and Los Angeles. If he had talked about the Statue of Liberty when in NY, then our model would correlate the Statue of Liberty, incorrectly, with LA.
 
-The excellent results from the NY vs LA data is not very indicative of the failures of this algorithm. The small user set makes it easy for the model to classify a tweet from LA just based off of a users particular tweeting style. Thus for this data to be meaningful, beyond being interesting for determining the words involved, we would need significantly more tweets from both of these cities. 
+The excellent results from the NY vs LA data are not very indicative of the failures of this algorithm. The small user set makes it easy for the model to classify a tweet from LA just based off of a users particular tweeting style. Thus for this data to be meaningful, beyond being interesting for determining the words involved, we would need significantly more tweets from both of these cities. 
 
 
 \begin{table}
@@ -80,7 +80,7 @@ The excellent results from the NY vs LA data is not very indicative of the failu
 \section*{Conclusions}
 There were a number of discoveries after analyzing the results of our experiment however the most apparent was that we needed more data.  Despite scraping for nearly 2 million tweets, only slightly over 1 percent of those were geo-tagged.  Furthermore, after creating subsets of the data, the number of tuples being examined was reduced into the hundreds yielding results that may or may not hold if the datasets were significantly larger.  Lastly, the way in which we collected our tweets may have affected our results by getting users who were friends of other users, restricting our geographic diversity.  
 
-That being said, there were some observations that suggested that this method can be used and could easily be more successful with some minor refinements.  For instance, Table~\ref{table:poploc} shows some of the indicative words for both New York and Los Angeles.  While some words certainly do not seem like they are closely related to location (e.g. ``lol", ``shit", ``Thanks"), others such as ``MoMA" (The Museum of Modern Art in New York) are highly correlated to a specific place.  Similarly, ``LA" and ``bamboozle" (a music festival in LA) were found to be indicative of Los Angeles.
+That being said, there were some observations suggesting that this method can be used and could easily be more successful with some minor refinements.  For instance, Table~\ref{table:poploc} shows some of the indicative words for both New York and Los Angeles.  While some words certainly do not seem like they are closely related to location (e.g. ``lol", ``shit", ``Thanks"), others such as ``MoMA" (The Museum of Modern Art in New York) are highly correlated to a specific place.  Similarly, ``LA" and ``bamboozle" (a music festival in LA) were found to be indicative of Los Angeles.
 
 The high precision and recall seen in the NY vs LA certainly is encouraging however the small size of this particular subset could call into question the validity of these results.  Having so few tweets means that there was not a lot of noise present and given that these tweets all came from a mere 21 tweeters the text in our corpus is not likely to be overly indicative of the New York or Los Angeles vernacular.
 
@@ -89,7 +89,7 @@ The most import next step would be to rebuild the dataset.  Rather than grabbing
 
 To run and build a naive bayes classifier, WEKA required 15 GB of RAM. If this project were to continue we would need a lot more data and a way to run experiments on it. There are probably better approaches to performing the machine learning that should be considered. 
 
-Another interesting next step would be to try and use the bounding box associated with the geotagged tweets rather than the location names.  After that, it would be possible to build a probability distribution across different regional granularities for a given tweet.  This would make more sense for some tweets as a given tweet might contain fine granularity information like an address and some might contain course information like "y'all".  
+Another interesting next step would be to try and use the bounding box associated with the geotagged tweets rather than the location names.  After that, it would be possible to build a probability distribution across different regional granularities for a given tweet.  This would make more sense for some tweets as a given tweet might contain fine granularity information like an address or instead might contain courser information like "y'all".  
 
 \bibliographystyle{plain}
 \bibliography{bib}
