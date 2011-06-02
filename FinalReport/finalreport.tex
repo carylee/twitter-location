@@ -40,7 +40,7 @@ To build the first data slice we ran through a user's tweets and determined whic
 The second data slice was constructed by selecting all tweets from New York and all tweets from Los Angeles. Unlike the last dataset, we kept each tweet text separate. This dataset contained 433 different tweets from 21 different users. 314 of these tweets were from New York, while 119 were from Los Angeles. 
 
 \section*{Results}
-The results we present here were obtained using a similar method to one used by Brent Hecht, et al \cite{bhecht}. We combined our corpora of tweet text and corresponding locations as a list of pairs. We then converted the corpora into a word vector and built a model using the Naive Bayes classification algorithm. The results are summarized in Table~\ref{table:results}. 
+The results we present here were obtained using a similar method to one used by Brent Hecht, et al \cite{bhecht}. We combined our corpora of tweet text and corresponding locations as a list of pairs. We then converted the corpora into a word vector and built a model using the Naive Bayes classification algorithm. The results of 10-fold cross-validation are summarized in Table~\ref{table:results}. 
 \begin{table}
 	\begin{center}
 		\begin{tabular}{| l || c | c |}

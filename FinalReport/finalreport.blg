@@ -2,9 +2,13 @@ This is BibTeX, Version 0.99c (TeX Live 2009)
 The top-level auxiliary file: finalreport.aux
 The style file: plain.bst
 Database file #1: bib.bib
+Too many commas in name 1 of "Brent Hecht, Lichan Hong, Bongwon Suh, Ed H. Chi" for entry bhecht
+while executing---line 1049 of file plain.bst
+Too many commas in name 1 of "Brent Hecht, Lichan Hong, Bongwon Suh, Ed H. Chi" for entry bhecht
+while executing---line 1090 of file plain.bst
 You've used 4 entries,
             2118 wiz_defined-function locations,
-            519 strings with 4433 characters,
+            519 strings with 4462 characters,
 and the built_in function-call counts, 842 in all, are:
 = -- 80
 > -- 28
@@ -43,3 +47,4 @@ warning$ -- 0
 while$ -- 8
 width$ -- 5
 write$ -- 42
+(There were 2 error messages)
