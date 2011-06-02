@@ -8,7 +8,7 @@
 \usepackage{algorithmic}
 \usepackage{verbatim}
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
-\graphicspath{{/Users/Loch/Dropbox/algorithms/}}
+\graphicspath{}
 
 \title{EECS 395 - WEIR \\ Tweet Geo-Extraction}
 \author{Kai Hayashi, Cary Lee, \& Daniel Myers}
@@ -46,19 +46,19 @@ The results we present here were obtained using a similar method to one used by 
 		\begin{tabular}{| l || c | c |}
 			\hline
 			Dataset & Precision (\%) & Recall (\%) \\ \hline
-			Full Dataset & --.- & --.- \\ \hline
+			Full Dataset & 30.9* & 35.6* \\ \hline
 			User Location & 2.6 & 4.2 \\ \hline
 			NY vs LA & 73.9 & 76.0 \\
 			\hline
 		\end{tabular}
 	\end{center}
-	\caption{Results from the three data slices.}
+	\caption{Results from the three data slices. These are the values from the preliminary report run on 1/3 of the full dataset. We have been having some trouble getting the full dataset to run.}
 	\label{table:results}
 \end{table}
 
 From our first data slice, we did not have great success yielding only 2.6 percent precision and 4.2 percent recall.  From our NY vs LA slice we had roughly 74 percent precision and 76 percent recall. 
 
-The low accuracy of the User Location data can be explained by the lower number of unique users in our dataset. Hand inspection of our data reveals that most users tweet most often from a unique city in our dataset. Thus the model will have a difficult time discerning between cities as only one corpora represents that city. In addition, by concatenating all tweets, regardless of whether they emanated from the most popular location, together introduces significant noise into the corpora. For example, one user tweeted from both New York and Los Angeles. If he had talked about the Statue of Liberty when in NY, then our model would correlate the Statue of Liberty, incorrectly, with LA.
+The low accuracy of the User Location data can be explained by the lower number of unique users in our dataset. Hand inspection of our data reveals that most users tweet most often from a unique city in our dataset. The model will have a difficult time discerning between cities as only one corpora represents that city. Thus, by concatenating all tweets, regardless of whether they emanated from the most popular location, together introduces significant noise into the corpora. For example, one user tweeted from both New York and Los Angeles. If he had talked about the Statue of Liberty when in NY, then our model would correlate the Statue of Liberty, incorrectly, with LA.
 
 The excellent results from the NY vs LA data are not very indicative of the failures of this algorithm. The small user set makes it easy for the model to classify a tweet from LA just based off of a users particular tweeting style. Thus for this data to be meaningful, beyond being interesting for determining the words involved, we would need significantly more tweets from both of these cities. 
 
@@ -89,7 +89,7 @@ The most import next step would be to rebuild the dataset.  Rather than grabbing
 
 To run and build a naive bayes classifier, WEKA required 15 GB of RAM. If this project were to continue we would need a lot more data and a way to run experiments on it. There are probably better approaches to performing the machine learning that should be considered. 
 
-Another interesting next step would be to try and use the bounding box associated with the geotagged tweets rather than the location names.  After that, it would be possible to build a probability distribution across different regional granularities for a given tweet.  This would make more sense for some tweets as a given tweet might contain fine granularity information like an address or instead might contain courser information like "y'all".  
+Another interesting next step would be to try and use the bounding box associated with the geotagged tweets rather than the location names.  After that, it would be possible to build a probability distribution across different regional granularities for a given tweet.  This would make more sense for some tweets as a given tweet might contain fine granularity information like an address or instead might contain courser information like ``y'all".  
 
 \bibliographystyle{plain}
 \bibliography{bib}
